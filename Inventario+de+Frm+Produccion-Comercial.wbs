@@ -1,0 +1,1195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project>
+	<proj ListSeperator="," DefaultDurationUnits="days" DefaultWorkUnits="hours" HoursPerDay="8" HoursPerWeek="40" DaysPerMonth="21.75" DefaultStartTime="08:00" DefaultFinishTime="17:00" NADate="">
+		<calendar>
+			<normalhours s1="08:00" f1="12:00" s2="13:00" f2="17:00"/>
+			<dow day="sun" working="no"/>
+			<dow day="mon" working="yes"/>
+			<dow day="tue" working="yes"/>
+			<dow day="wed" working="yes"/>
+			<dow day="thu" working="yes"/>
+			<dow day="fri" working="yes"/>
+			<dow day="sat" working="no"/>
+		</calendar>
+		<currency symbol="S/." digits="2" positiveOrder="2" negativeOrder="12"/>
+		<summary ScheduleFromStart="yes" CalculateCostProgress="no" MultipleCriticalPaths="no" CriticalSlack="0d" Name="Inventario+de+Frm+Produccion-Comercial-3" Title="Inventario+de+Frm+Produccion-Comercial-3" Duration="148d" ActualDuration="133.2d" PercentComplete="90%" Start="2015-10-01T08:00" Finish="2016-07-22T17:00" ActualStart="2015-12-30T08:00"/>
+		<tasks>
+			<task ID="0" UniqueID="0" OutlineLevel="0" PercentComplete="90%" Name="Inventario+de+Frm+Produccion-Comercial-3" ActualDuration="133.2d" Duration="148d" RemainingDuration="14.8d" Start="2015-12-30T08:00" Finish="2016-07-22T17:00" EarlyStart="2015-12-30T08:00" EarlyFinish="2016-07-22T17:00" LateStart="2015-12-30T08:00" LateFinish="2016-07-22T17:00" ActualStart="2015-12-30T08:00" Critical="yes"/>
+			<task ID="1" UniqueID="1" OutlineLevel="1" PercentComplete="90%" Name="BapSoftNetErp " ActualDuration="133.2d" Duration="148d" RemainingDuration="14.8d" Start="2015-12-30T08:00" Finish="2016-07-22T17:00" EarlyStart="2015-12-30T08:00" EarlyFinish="2016-07-22T17:00" LateStart="2015-12-30T08:00" LateFinish="2016-07-22T17:00" ActualStart="2015-12-30T08:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="2" UniqueID="2" OutlineLevel="2" PercentComplete="90%" Name="Gesti&#243;n Financiera (Contabilidad)" UniqueIDPredecessors="1" ActualDuration="63d" Duration="70d" RemainingDuration="7d" Start="2015-12-30T08:00" Finish="2016-04-05T17:00" EarlyStart="2015-12-30T08:00" EarlyFinish="2016-04-05T17:00" LateStart="2015-12-30T08:00" LateFinish="2016-04-05T17:00" ActualStart="2015-12-30T08:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="3" UniqueID="93" OutlineLevel="3" PercentComplete="90%" Name="Administraci&#243;n de  Cuentas por Cobrar " UniqueIDPredecessors="2" ActualDuration="30.6d" Duration="34d" RemainingDuration="3.4d" Start="2015-12-30T08:00" Finish="2016-02-15T17:00" EarlyStart="2015-12-30T08:00" EarlyFinish="2016-02-15T17:00" LateStart="2015-12-30T08:00" LateFinish="2016-02-15T17:00" ActualStart="2015-12-30T08:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="4" UniqueID="54" OutlineLevel="4" PercentComplete="90%" Name="Frm Principal   modulo de  Cuentas por Cobrar" UniqueIDPredecessors="93" ActualDuration="0.9d" Duration="1d" RemainingDuration="0.1d" ConstraintDate="2015-12-30T08:00" Start="2015-12-30T08:00" Finish="2015-12-30T17:00" EarlyStart="2015-12-30T08:00" EarlyFinish="2015-12-30T17:00" LateStart="2015-12-30T08:00" LateFinish="2015-12-30T17:00" ActualStart="2015-12-30T08:00" Critical="yes" EffortDriven="yes" ConstraintType="Start No Earlier Than" FixedCostAccrual="Prorated"/>
+			<task ID="5" UniqueID="55" OutlineLevel="4" PercentComplete="90%" Name="Frm Reporte Vouchers" UniqueIDPredecessors="54" ActualDuration="0.9d" Duration="1d" RemainingDuration="0.1d" Start="2015-12-31T08:00" Finish="2015-12-31T17:00" EarlyStart="2015-12-31T08:00" EarlyFinish="2015-12-31T17:00" LateStart="2015-12-31T08:00" LateFinish="2015-12-31T17:00" ActualStart="2015-12-31T08:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="6" UniqueID="56" OutlineLevel="4" PercentComplete="90%" Name="Frm Help General  " UniqueIDPredecessors="55" ActualDuration="0.9d" Duration="1d" RemainingDuration="0.1d" Start="2016-01-01T08:00" Finish="2016-01-01T17:00" EarlyStart="2016-01-01T08:00" EarlyFinish="2016-01-01T17:00" LateStart="2016-01-01T08:00" LateFinish="2016-01-01T17:00" ActualStart="2016-01-01T08:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="7" UniqueID="57" OutlineLevel="4" PercentComplete="90%" Name="Frm Ayuda Afecto IGV" UniqueIDPredecessors="56" ActualDuration="0.9d" Duration="1d" RemainingDuration="0.1d" Start="2016-01-04T08:00" Finish="2016-01-04T17:00" EarlyStart="2016-01-04T08:00" EarlyFinish="2016-01-04T17:00" LateStart="2016-01-04T08:00" LateFinish="2016-01-04T17:00" ActualStart="2016-01-04T08:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="8" UniqueID="58" OutlineLevel="4" PercentComplete="90%" Name="Frm Ayuda Articulo" UniqueIDPredecessors="57" ActualDuration="0.9d" Duration="1d" RemainingDuration="0.1d" Start="2016-01-05T08:00" Finish="2016-01-05T17:00" EarlyStart="2016-01-05T08:00" EarlyFinish="2016-01-05T17:00" LateStart="2016-01-05T08:00" LateFinish="2016-01-05T17:00" ActualStart="2016-01-05T08:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="9" UniqueID="59" OutlineLevel="4" PercentComplete="90%" Name="Frm Buscar Registro Compras" UniqueIDPredecessors="58" ActualDuration="0.9d" Duration="1d" RemainingDuration="0.1d" Start="2016-01-06T08:00" Finish="2016-01-06T17:00" EarlyStart="2016-01-06T08:00" EarlyFinish="2016-01-06T17:00" LateStart="2016-01-06T08:00" LateFinish="2016-01-06T17:00" ActualStart="2016-01-06T08:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="10" UniqueID="60" OutlineLevel="4" PercentComplete="90%" Name="Frm Centro Costo" UniqueIDPredecessors="59" ActualDuration="0.9d" Duration="1d" RemainingDuration="0.1d" Start="2016-01-07T08:00" Finish="2016-01-07T17:00" EarlyStart="2016-01-07T08:00" EarlyFinish="2016-01-07T17:00" LateStart="2016-01-07T08:00" LateFinish="2016-01-07T17:00" ActualStart="2016-01-07T08:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="11" UniqueID="61" OutlineLevel="4" PercentComplete="90%" Name="Frm Ayuda Cuentas" UniqueIDPredecessors="60" ActualDuration="0.9d" Duration="1d" RemainingDuration="0.1d" Start="2016-01-08T08:00" Finish="2016-01-08T17:00" EarlyStart="2016-01-08T08:00" EarlyFinish="2016-01-08T17:00" LateStart="2016-01-08T08:00" LateFinish="2016-01-08T17:00" ActualStart="2016-01-08T08:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="12" UniqueID="63" OutlineLevel="4" PercentComplete="90%" Name="Frm Ayuda Pais" UniqueIDPredecessors="61" ActualDuration="0.9d" Duration="1d" RemainingDuration="0.1d" Start="2016-01-11T08:00" Finish="2016-01-11T17:00" EarlyStart="2016-01-11T08:00" EarlyFinish="2016-01-11T17:00" LateStart="2016-01-11T08:00" LateFinish="2016-01-11T17:00" ActualStart="2016-01-11T08:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="13" UniqueID="64" OutlineLevel="4" PercentComplete="90%" Name="Frm Ayuda Parte Ingreso Alamacen" UniqueIDPredecessors="63" ActualDuration="0.9d" Duration="1d" RemainingDuration="0.1d" Start="2016-01-12T08:00" Finish="2016-01-12T17:00" EarlyStart="2016-01-12T08:00" EarlyFinish="2016-01-12T17:00" LateStart="2016-01-12T08:00" LateFinish="2016-01-12T17:00" ActualStart="2016-01-12T08:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="14" UniqueID="65" OutlineLevel="4" PercentComplete="90%" Name="Frm Ayuda Proveedor" UniqueIDPredecessors="64" ActualDuration="0.9d" Duration="1d" RemainingDuration="0.1d" Start="2016-01-13T08:00" Finish="2016-01-13T17:00" EarlyStart="2016-01-13T08:00" EarlyFinish="2016-01-13T17:00" LateStart="2016-01-13T08:00" LateFinish="2016-01-13T17:00" ActualStart="2016-01-13T08:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="15" UniqueID="66" OutlineLevel="4" PercentComplete="90%" Name="Frm Ayuda Registro Compras" UniqueIDPredecessors="65" ActualDuration="0.9d" Duration="1d" RemainingDuration="0.1d" Start="2016-01-14T08:00" Finish="2016-01-14T17:00" EarlyStart="2016-01-14T08:00" EarlyFinish="2016-01-14T17:00" LateStart="2016-01-14T08:00" LateFinish="2016-01-14T17:00" ActualStart="2016-01-14T08:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="16" UniqueID="67" OutlineLevel="4" PercentComplete="90%" Name="Frm Ayuda Ventas" UniqueIDPredecessors="66" ActualDuration="0.9d" Duration="1d" RemainingDuration="0.1d" Start="2016-01-15T08:00" Finish="2016-01-15T17:00" EarlyStart="2016-01-15T08:00" EarlyFinish="2016-01-15T17:00" LateStart="2016-01-15T08:00" LateFinish="2016-01-15T17:00" ActualStart="2016-01-15T08:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="17" UniqueID="68" OutlineLevel="4" PercentComplete="90%" Name="Frm Ayuda Rubro Compras" UniqueIDPredecessors="67" ActualDuration="0.9d" Duration="1d" RemainingDuration="0.1d" Start="2016-01-18T08:00" Finish="2016-01-18T17:00" EarlyStart="2016-01-18T08:00" EarlyFinish="2016-01-18T17:00" LateStart="2016-01-18T08:00" LateFinish="2016-01-18T17:00" ActualStart="2016-01-18T08:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="18" UniqueID="69" OutlineLevel="4" PercentComplete="90%" Name="Frm Ayuda Tipo Compra" UniqueIDPredecessors="68" ActualDuration="0.9d" Duration="1d" RemainingDuration="0.1d" Start="2016-01-19T08:00" Finish="2016-01-19T17:00" EarlyStart="2016-01-19T08:00" EarlyFinish="2016-01-19T17:00" LateStart="2016-01-19T08:00" LateFinish="2016-01-19T17:00" ActualStart="2016-01-19T08:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="19" UniqueID="70" OutlineLevel="4" PercentComplete="90%" Name="Frm Ayuda Tipo Documentos" UniqueIDPredecessors="69" ActualDuration="0.9d" Duration="1d" RemainingDuration="0.1d" Start="2016-01-20T08:00" Finish="2016-01-20T17:00" EarlyStart="2016-01-20T08:00" EarlyFinish="2016-01-20T17:00" LateStart="2016-01-20T08:00" LateFinish="2016-01-20T17:00" ActualStart="2016-01-20T08:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="20" UniqueID="71" OutlineLevel="4" PercentComplete="90%" Name="Frm Registro de Ventas" UniqueIDPredecessors="70" ActualDuration="0.9d" Duration="1d" RemainingDuration="0.1d" Start="2016-01-21T08:00" Finish="2016-01-21T17:00" EarlyStart="2016-01-21T08:00" EarlyFinish="2016-01-21T17:00" LateStart="2016-01-21T08:00" LateFinish="2016-01-21T17:00" ActualStart="2016-01-21T08:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="21" UniqueID="72" OutlineLevel="4" PercentComplete="90%" Name="Frm Seleccion Varios Clientes" UniqueIDPredecessors="71" ActualDuration="0.9d" Duration="1d" RemainingDuration="0.1d" Start="2016-01-22T08:00" Finish="2016-01-22T17:00" EarlyStart="2016-01-22T08:00" EarlyFinish="2016-01-22T17:00" LateStart="2016-01-22T08:00" LateFinish="2016-01-22T17:00" ActualStart="2016-01-22T08:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="22" UniqueID="73" OutlineLevel="4" PercentComplete="90%" Name="Frm Linea  " UniqueIDPredecessors="72" ActualDuration="0.9d" Duration="1d" RemainingDuration="0.1d" Start="2016-01-25T08:00" Finish="2016-01-25T17:00" EarlyStart="2016-01-25T08:00" EarlyFinish="2016-01-25T17:00" LateStart="2016-01-25T08:00" LateFinish="2016-01-25T17:00" ActualStart="2016-01-25T08:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="23" UniqueID="74" OutlineLevel="4" PercentComplete="90%" Name="Frm Marca" UniqueIDPredecessors="73" ActualDuration="0.9d" Duration="1d" RemainingDuration="0.1d" Start="2016-01-26T08:00" Finish="2016-01-26T17:00" EarlyStart="2016-01-26T08:00" EarlyFinish="2016-01-26T17:00" LateStart="2016-01-26T08:00" LateFinish="2016-01-26T17:00" ActualStart="2016-01-26T08:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="24" UniqueID="75" OutlineLevel="4" PercentComplete="90%" Name="Frm Modelo" UniqueIDPredecessors="74" ActualDuration="0.9d" Duration="1d" RemainingDuration="0.1d" Start="2016-01-27T08:00" Finish="2016-01-27T17:00" EarlyStart="2016-01-27T08:00" EarlyFinish="2016-01-27T17:00" LateStart="2016-01-27T08:00" LateFinish="2016-01-27T17:00" ActualStart="2016-01-27T08:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="25" UniqueID="76" OutlineLevel="4" PercentComplete="90%" Name="Rpt Reporte Voucher Cheque" UniqueIDPredecessors="75" ActualDuration="0.9d" Duration="1d" RemainingDuration="0.1d" Start="2016-01-28T08:00" Finish="2016-01-28T17:00" EarlyStart="2016-01-28T08:00" EarlyFinish="2016-01-28T17:00" LateStart="2016-01-28T08:00" LateFinish="2016-01-28T17:00" ActualStart="2016-01-28T08:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="26" UniqueID="77" OutlineLevel="4" PercentComplete="90%" Name="Rpt Reporte Voucher Conhtable" UniqueIDPredecessors="76" ActualDuration="0.9d" Duration="1d" RemainingDuration="0.1d" Start="2016-01-29T08:00" Finish="2016-01-29T17:00" EarlyStart="2016-01-29T08:00" EarlyFinish="2016-01-29T17:00" LateStart="2016-01-29T08:00" LateFinish="2016-01-29T17:00" ActualStart="2016-01-29T08:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="27" UniqueID="78" OutlineLevel="4" PercentComplete="90%" Name="Frm Cuenta por Cobrar" UniqueIDPredecessors="77" ActualDuration="0.9d" Duration="1d" RemainingDuration="0.1d" Start="2016-02-01T08:00" Finish="2016-02-01T17:00" EarlyStart="2016-02-01T08:00" EarlyFinish="2016-02-01T17:00" LateStart="2016-02-01T08:00" LateFinish="2016-02-01T17:00" ActualStart="2016-02-01T08:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="28" UniqueID="79" OutlineLevel="4" PercentComplete="90%" Name="Frm Canje de Letras" UniqueIDPredecessors="78" ActualDuration="0.9d" Duration="1d" RemainingDuration="0.1d" Start="2016-02-02T08:00" Finish="2016-02-02T17:00" EarlyStart="2016-02-02T08:00" EarlyFinish="2016-02-02T17:00" LateStart="2016-02-02T08:00" LateFinish="2016-02-02T17:00" ActualStart="2016-02-02T08:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="29" UniqueID="80" OutlineLevel="4" PercentComplete="90%" Name="Frm Cronograma Canje de Letras" UniqueIDPredecessors="79" ActualDuration="0.9d" Duration="1d" RemainingDuration="0.1d" Start="2016-02-03T08:00" Finish="2016-02-03T17:00" EarlyStart="2016-02-03T08:00" EarlyFinish="2016-02-03T17:00" LateStart="2016-02-03T08:00" LateFinish="2016-02-03T17:00" ActualStart="2016-02-03T08:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="30" UniqueID="81" OutlineLevel="4" PercentComplete="90%" Name="Frm Canje de Letras Movimientos" UniqueIDPredecessors="80" ActualDuration="0.9d" Duration="1d" RemainingDuration="0.1d" Start="2016-02-04T08:00" Finish="2016-02-04T17:00" EarlyStart="2016-02-04T08:00" EarlyFinish="2016-02-04T17:00" LateStart="2016-02-04T08:00" LateFinish="2016-02-04T17:00" ActualStart="2016-02-04T08:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="31" UniqueID="82" OutlineLevel="4" PercentComplete="90%" Name="Frm Consultar Cancelaciones" UniqueIDPredecessors="81" ActualDuration="0.9d" Duration="1d" RemainingDuration="0.1d" Start="2016-02-05T08:00" Finish="2016-02-05T17:00" EarlyStart="2016-02-05T08:00" EarlyFinish="2016-02-05T17:00" LateStart="2016-02-05T08:00" LateFinish="2016-02-05T17:00" ActualStart="2016-02-05T08:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="32" UniqueID="83" OutlineLevel="4" PercentComplete="90%" Name="Frm Importar Registro de Ventas    " UniqueIDPredecessors="82" ActualDuration="0.9d" Duration="1d" RemainingDuration="0.1d" Start="2016-02-08T08:00" Finish="2016-02-08T17:00" EarlyStart="2016-02-08T08:00" EarlyFinish="2016-02-08T17:00" LateStart="2016-02-08T08:00" LateFinish="2016-02-08T17:00" ActualStart="2016-02-08T08:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="33" UniqueID="84" OutlineLevel="4" PercentComplete="90%" Name="Frm Pedido " UniqueIDPredecessors="83" ActualDuration="0.9d" Duration="1d" RemainingDuration="0.1d" Start="2016-02-09T08:00" Finish="2016-02-09T17:00" EarlyStart="2016-02-09T08:00" EarlyFinish="2016-02-09T17:00" LateStart="2016-02-09T08:00" LateFinish="2016-02-09T17:00" ActualStart="2016-02-09T08:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="34" UniqueID="207" OutlineLevel="4" PercentComplete="90%" Name="Rtp Varios   " UniqueIDPredecessors="84" ActualDuration="0.9d" Duration="1d" RemainingDuration="0.1d" Start="2016-02-10T08:00" Finish="2016-02-10T17:00" EarlyStart="2016-02-10T08:00" EarlyFinish="2016-02-10T17:00" LateStart="2016-02-10T08:00" LateFinish="2016-02-10T17:00" ActualStart="2016-02-10T08:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="35" UniqueID="208" OutlineLevel="4" PercentComplete="90%" Name="Frm Registro de Ventas" UniqueIDPredecessors="207" ActualDuration="0.9d" Duration="1d" RemainingDuration="0.1d" Start="2016-02-11T08:00" Finish="2016-02-11T17:00" EarlyStart="2016-02-11T08:00" EarlyFinish="2016-02-11T17:00" LateStart="2016-02-11T08:00" LateFinish="2016-02-11T17:00" ActualStart="2016-02-11T08:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="36" UniqueID="209" OutlineLevel="4" PercentComplete="90%" Name="Frm Amortizaciones" UniqueIDPredecessors="208" ActualDuration="0.9d" Duration="1d" RemainingDuration="0.1d" Start="2016-02-12T08:00" Finish="2016-02-12T17:00" EarlyStart="2016-02-12T08:00" EarlyFinish="2016-02-12T17:00" LateStart="2016-02-12T08:00" LateFinish="2016-02-12T17:00" ActualStart="2016-02-12T08:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="37" UniqueID="210" OutlineLevel="4" PercentComplete="90%" Name="Frm Canje de Documentos" UniqueIDPredecessors="209" ActualDuration="0.9d" Duration="1d" RemainingDuration="0.1d" Start="2016-02-15T08:00" Finish="2016-02-15T17:00" EarlyStart="2016-02-15T08:00" EarlyFinish="2016-02-15T17:00" LateStart="2016-02-15T08:00" LateFinish="2016-02-15T17:00" ActualStart="2016-02-15T08:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="38" UniqueID="144" OutlineLevel="3" PercentComplete="90%" Name="Administraci&#243;n de  Cuentas por Pagar " UniqueIDPredecessors="210" ActualDuration="30.6d" Duration="34d" RemainingDuration="3.4d" Start="2016-02-16T08:00" Finish="2016-04-01T17:00" EarlyStart="2016-02-16T08:00" EarlyFinish="2016-04-01T17:00" LateStart="2016-02-16T08:00" LateFinish="2016-04-01T17:00" ActualStart="2016-02-16T08:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="39" UniqueID="145" OutlineLevel="4" PercentComplete="90%" Name="Frm Principal modulo de Cuentas por Pagar   " UniqueIDPredecessors="144" ActualDuration="0.9d" Duration="1d" RemainingDuration="0.1d" Start="2016-02-16T08:00" Finish="2016-02-16T17:00" EarlyStart="2016-02-16T08:00" EarlyFinish="2016-02-16T17:00" LateStart="2016-02-16T08:00" LateFinish="2016-02-16T17:00" ActualStart="2016-02-16T08:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="40" UniqueID="156" OutlineLevel="4" PercentComplete="90%" Name="Frm Ayuda Registro Compras" UniqueIDPredecessors="145" ActualDuration="0.9d" Duration="1d" RemainingDuration="0.1d" Start="2016-02-17T08:00" Finish="2016-02-17T17:00" EarlyStart="2016-02-17T08:00" EarlyFinish="2016-02-17T17:00" LateStart="2016-02-17T08:00" LateFinish="2016-02-17T17:00" ActualStart="2016-02-17T08:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="41" UniqueID="147" OutlineLevel="4" PercentComplete="90%" Name="Frm Help General  " UniqueIDPredecessors="156" ActualDuration="0.9d" Duration="1d" RemainingDuration="0.1d" Start="2016-02-18T08:00" Finish="2016-02-18T17:00" EarlyStart="2016-02-18T08:00" EarlyFinish="2016-02-18T17:00" LateStart="2016-02-18T08:00" LateFinish="2016-02-18T17:00" ActualStart="2016-02-18T08:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="42" UniqueID="148" OutlineLevel="4" PercentComplete="90%" Name="Frm Ayuda Afecto IGV  " UniqueIDPredecessors="147" ActualDuration="0.9d" Duration="1d" RemainingDuration="0.1d" Start="2016-02-19T08:00" Finish="2016-02-19T17:00" EarlyStart="2016-02-19T08:00" EarlyFinish="2016-02-19T17:00" LateStart="2016-02-19T08:00" LateFinish="2016-02-19T17:00" ActualStart="2016-02-19T08:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="43" UniqueID="149" OutlineLevel="4" PercentComplete="90%" Name="Frm Ayuda Articulo" UniqueIDPredecessors="148" ActualDuration="0.9d" Duration="1d" RemainingDuration="0.1d" Start="2016-02-22T08:00" Finish="2016-02-22T17:00" EarlyStart="2016-02-22T08:00" EarlyFinish="2016-02-22T17:00" LateStart="2016-02-22T08:00" LateFinish="2016-02-22T17:00" ActualStart="2016-02-22T08:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="44" UniqueID="150" OutlineLevel="4" PercentComplete="90%" Name="Frm Buscar Registro Compras" UniqueIDPredecessors="149" ActualDuration="0.9d" Duration="1d" RemainingDuration="0.1d" Start="2016-02-23T08:00" Finish="2016-02-23T17:00" EarlyStart="2016-02-23T08:00" EarlyFinish="2016-02-23T17:00" LateStart="2016-02-23T08:00" LateFinish="2016-02-23T17:00" ActualStart="2016-02-23T08:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="45" UniqueID="151" OutlineLevel="4" PercentComplete="90%" Name="Frm Centro Costo  " UniqueIDPredecessors="150" ActualDuration="0.9d" Duration="1d" RemainingDuration="0.1d" Start="2016-02-24T08:00" Finish="2016-02-24T17:00" EarlyStart="2016-02-24T08:00" EarlyFinish="2016-02-24T17:00" LateStart="2016-02-24T08:00" LateFinish="2016-02-24T17:00" ActualStart="2016-02-24T08:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="46" UniqueID="152" OutlineLevel="4" PercentComplete="90%" Name="Frm Ayuda Cuentas " UniqueIDPredecessors="151" ActualDuration="0.9d" Duration="1d" RemainingDuration="0.1d" Start="2016-02-25T08:00" Finish="2016-02-25T17:00" EarlyStart="2016-02-25T08:00" EarlyFinish="2016-02-25T17:00" LateStart="2016-02-25T08:00" LateFinish="2016-02-25T17:00" ActualStart="2016-02-25T08:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="47" UniqueID="153" OutlineLevel="4" PercentComplete="90%" Name="Frm Ayuda Pais  " UniqueIDPredecessors="152" ActualDuration="0.9d" Duration="1d" RemainingDuration="0.1d" Start="2016-02-26T08:00" Finish="2016-02-26T17:00" EarlyStart="2016-02-26T08:00" EarlyFinish="2016-02-26T17:00" LateStart="2016-02-26T08:00" LateFinish="2016-02-26T17:00" ActualStart="2016-02-26T08:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="48" UniqueID="154" OutlineLevel="4" PercentComplete="90%" Name="Frm Ayuda Parte Ingreso Alamacen  " UniqueIDPredecessors="153" ActualDuration="0.9d" Duration="1d" RemainingDuration="0.1d" Start="2016-02-29T08:00" Finish="2016-02-29T17:00" EarlyStart="2016-02-29T08:00" EarlyFinish="2016-02-29T17:00" LateStart="2016-02-29T08:00" LateFinish="2016-02-29T17:00" ActualStart="2016-02-29T08:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="49" UniqueID="155" OutlineLevel="4" PercentComplete="90%" Name="Frm Ayuda Proveedor" UniqueIDPredecessors="154" ActualDuration="0.9d" Duration="1d" RemainingDuration="0.1d" Start="2016-03-01T08:00" Finish="2016-03-01T17:00" EarlyStart="2016-03-01T08:00" EarlyFinish="2016-03-01T17:00" LateStart="2016-03-01T08:00" LateFinish="2016-03-01T17:00" ActualStart="2016-03-01T08:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="50" UniqueID="146" OutlineLevel="4" PercentComplete="90%" Name="Frm Reporte Vouchers   " UniqueIDPredecessors="155" ActualDuration="0.9d" Duration="1d" RemainingDuration="0.1d" Start="2016-03-02T08:00" Finish="2016-03-02T17:00" EarlyStart="2016-03-02T08:00" EarlyFinish="2016-03-02T17:00" LateStart="2016-03-02T08:00" LateFinish="2016-03-02T17:00" ActualStart="2016-03-02T08:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="51" UniqueID="183" OutlineLevel="4" PercentComplete="90%" Name="Frm Ayuda Ventas" UniqueIDPredecessors="146" ActualDuration="0.9d" Duration="1d" RemainingDuration="0.1d" Start="2016-03-03T08:00" Finish="2016-03-03T17:00" EarlyStart="2016-03-03T08:00" EarlyFinish="2016-03-03T17:00" LateStart="2016-03-03T08:00" LateFinish="2016-03-03T17:00" ActualStart="2016-03-03T08:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="52" UniqueID="184" OutlineLevel="4" PercentComplete="90%" Name="Frm Ayuda Rubro Compras" UniqueIDPredecessors="183" ActualDuration="0.9d" Duration="1d" RemainingDuration="0.1d" Start="2016-03-04T08:00" Finish="2016-03-04T17:00" EarlyStart="2016-03-04T08:00" EarlyFinish="2016-03-04T17:00" LateStart="2016-03-04T08:00" LateFinish="2016-03-04T17:00" ActualStart="2016-03-04T08:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="53" UniqueID="185" OutlineLevel="4" PercentComplete="90%" Name="Frm Ayuda Tipo Compra" UniqueIDPredecessors="184" ActualDuration="0.9d" Duration="1d" RemainingDuration="0.1d" Start="2016-03-07T08:00" Finish="2016-03-07T17:00" EarlyStart="2016-03-07T08:00" EarlyFinish="2016-03-07T17:00" LateStart="2016-03-07T08:00" LateFinish="2016-03-07T17:00" ActualStart="2016-03-07T08:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="54" UniqueID="186" OutlineLevel="4" PercentComplete="90%" Name="Frm Ayuda Tipo Documentos" UniqueIDPredecessors="185" ActualDuration="0.9d" Duration="1d" RemainingDuration="0.1d" Start="2016-03-08T08:00" Finish="2016-03-08T17:00" EarlyStart="2016-03-08T08:00" EarlyFinish="2016-03-08T17:00" LateStart="2016-03-08T08:00" LateFinish="2016-03-08T17:00" ActualStart="2016-03-08T08:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="55" UniqueID="187" OutlineLevel="4" PercentComplete="90%" Name="Frm Registro de Ventas" UniqueIDPredecessors="186" ActualDuration="0.9d" Duration="1d" RemainingDuration="0.1d" Start="2016-03-09T08:00" Finish="2016-03-09T17:00" EarlyStart="2016-03-09T08:00" EarlyFinish="2016-03-09T17:00" LateStart="2016-03-09T08:00" LateFinish="2016-03-09T17:00" ActualStart="2016-03-09T08:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="56" UniqueID="188" OutlineLevel="4" PercentComplete="90%" Name="Frm Seleccion Varios Clientes" UniqueIDPredecessors="187" ActualDuration="0.9d" Duration="1d" RemainingDuration="0.1d" Start="2016-03-10T08:00" Finish="2016-03-10T17:00" EarlyStart="2016-03-10T08:00" EarlyFinish="2016-03-10T17:00" LateStart="2016-03-10T08:00" LateFinish="2016-03-10T17:00" ActualStart="2016-03-10T08:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="57" UniqueID="189" OutlineLevel="4" PercentComplete="90%" Name="Frm Linea  " UniqueIDPredecessors="188" ActualDuration="0.9d" Duration="1d" RemainingDuration="0.1d" Start="2016-03-11T08:00" Finish="2016-03-11T17:00" EarlyStart="2016-03-11T08:00" EarlyFinish="2016-03-11T17:00" LateStart="2016-03-11T08:00" LateFinish="2016-03-11T17:00" ActualStart="2016-03-11T08:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="58" UniqueID="190" OutlineLevel="4" PercentComplete="90%" Name="Frm Marca" UniqueIDPredecessors="189" ActualDuration="0.9d" Duration="1d" RemainingDuration="0.1d" Start="2016-03-14T08:00" Finish="2016-03-14T17:00" EarlyStart="2016-03-14T08:00" EarlyFinish="2016-03-14T17:00" LateStart="2016-03-14T08:00" LateFinish="2016-03-14T17:00" ActualStart="2016-03-14T08:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="59" UniqueID="191" OutlineLevel="4" PercentComplete="90%" Name="Frm Modelo" UniqueIDPredecessors="190" ActualDuration="0.9d" Duration="1d" RemainingDuration="0.1d" Start="2016-03-15T08:00" Finish="2016-03-15T17:00" EarlyStart="2016-03-15T08:00" EarlyFinish="2016-03-15T17:00" LateStart="2016-03-15T08:00" LateFinish="2016-03-15T17:00" ActualStart="2016-03-15T08:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="60" UniqueID="192" OutlineLevel="4" PercentComplete="90%" Name="Rpt Reporte Voucher Cheque" UniqueIDPredecessors="191" ActualDuration="0.9d" Duration="1d" RemainingDuration="0.1d" Start="2016-03-16T08:00" Finish="2016-03-16T17:00" EarlyStart="2016-03-16T08:00" EarlyFinish="2016-03-16T17:00" LateStart="2016-03-16T08:00" LateFinish="2016-03-16T17:00" ActualStart="2016-03-16T08:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="61" UniqueID="193" OutlineLevel="4" PercentComplete="90%" Name="Rpt Reporte Voucher Conhtable" UniqueIDPredecessors="192" ActualDuration="0.9d" Duration="1d" RemainingDuration="0.1d" Start="2016-03-17T08:00" Finish="2016-03-17T17:00" EarlyStart="2016-03-17T08:00" EarlyFinish="2016-03-17T17:00" LateStart="2016-03-17T08:00" LateFinish="2016-03-17T17:00" ActualStart="2016-03-17T08:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="62" UniqueID="194" OutlineLevel="4" PercentComplete="90%" Name="Frm Cuenta por Pagar" UniqueIDPredecessors="193" ActualDuration="0.9d" Duration="1d" RemainingDuration="0.1d" Start="2016-03-18T08:00" Finish="2016-03-18T17:00" EarlyStart="2016-03-18T08:00" EarlyFinish="2016-03-18T17:00" LateStart="2016-03-18T08:00" LateFinish="2016-03-18T17:00" ActualStart="2016-03-18T08:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="63" UniqueID="195" OutlineLevel="4" PercentComplete="90%" Name="Frm Canje de Letras" UniqueIDPredecessors="194" ActualDuration="0.9d" Duration="1d" RemainingDuration="0.1d" Start="2016-03-21T08:00" Finish="2016-03-21T17:00" EarlyStart="2016-03-21T08:00" EarlyFinish="2016-03-21T17:00" LateStart="2016-03-21T08:00" LateFinish="2016-03-21T17:00" ActualStart="2016-03-21T08:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="64" UniqueID="196" OutlineLevel="4" PercentComplete="90%" Name="Frm Cronograma Canje de Letras" UniqueIDPredecessors="195" ActualDuration="0.9d" Duration="1d" RemainingDuration="0.1d" Start="2016-03-22T08:00" Finish="2016-03-22T17:00" EarlyStart="2016-03-22T08:00" EarlyFinish="2016-03-22T17:00" LateStart="2016-03-22T08:00" LateFinish="2016-03-22T17:00" ActualStart="2016-03-22T08:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="65" UniqueID="197" OutlineLevel="4" PercentComplete="90%" Name="Frm Canje de Letras Movimientos" UniqueIDPredecessors="196" ActualDuration="0.9d" Duration="1d" RemainingDuration="0.1d" Start="2016-03-23T08:00" Finish="2016-03-23T17:00" EarlyStart="2016-03-23T08:00" EarlyFinish="2016-03-23T17:00" LateStart="2016-03-23T08:00" LateFinish="2016-03-23T17:00" ActualStart="2016-03-23T08:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="66" UniqueID="198" OutlineLevel="4" PercentComplete="90%" Name="Frm Consultar Cancelaciones" UniqueIDPredecessors="197" ActualDuration="0.9d" Duration="1d" RemainingDuration="0.1d" Start="2016-03-24T08:00" Finish="2016-03-24T17:00" EarlyStart="2016-03-24T08:00" EarlyFinish="2016-03-24T17:00" LateStart="2016-03-24T08:00" LateFinish="2016-03-24T17:00" ActualStart="2016-03-24T08:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="67" UniqueID="199" OutlineLevel="4" PercentComplete="90%" Name="Frm Importar Registro de Ventas    " UniqueIDPredecessors="198" ActualDuration="0.9d" Duration="1d" RemainingDuration="0.1d" Start="2016-03-25T08:00" Finish="2016-03-25T17:00" EarlyStart="2016-03-25T08:00" EarlyFinish="2016-03-25T17:00" LateStart="2016-03-25T08:00" LateFinish="2016-03-25T17:00" ActualStart="2016-03-25T08:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="68" UniqueID="200" OutlineLevel="4" PercentComplete="90%" Name="Frm Pedido " UniqueIDPredecessors="199" ActualDuration="0.9d" Duration="1d" RemainingDuration="0.1d" Start="2016-03-28T08:00" Finish="2016-03-28T17:00" EarlyStart="2016-03-28T08:00" EarlyFinish="2016-03-28T17:00" LateStart="2016-03-28T08:00" LateFinish="2016-03-28T17:00" ActualStart="2016-03-28T08:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="69" UniqueID="137" OutlineLevel="4" PercentComplete="90%" Name="Rtp Varios   " UniqueIDPredecessors="200" ActualDuration="0.9d" Duration="1d" RemainingDuration="0.1d" Start="2016-03-29T08:00" Finish="2016-03-29T17:00" EarlyStart="2016-03-29T08:00" EarlyFinish="2016-03-29T17:00" LateStart="2016-03-29T08:00" LateFinish="2016-03-29T17:00" ActualStart="2016-03-29T08:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="70" UniqueID="136" OutlineLevel="4" PercentComplete="90%" Name="Frm Registro de Ventas" UniqueIDPredecessors="137" ActualDuration="0.9d" Duration="1d" RemainingDuration="0.1d" Start="2016-03-30T08:00" Finish="2016-03-30T17:00" EarlyStart="2016-03-30T08:00" EarlyFinish="2016-03-30T17:00" LateStart="2016-03-30T08:00" LateFinish="2016-03-30T17:00" ActualStart="2016-03-30T08:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="71" UniqueID="135" OutlineLevel="4" PercentComplete="90%" Name="Frm Amortizaciones" UniqueIDPredecessors="136" ActualDuration="0.9d" Duration="1d" RemainingDuration="0.1d" Start="2016-03-31T08:00" Finish="2016-03-31T17:00" EarlyStart="2016-03-31T08:00" EarlyFinish="2016-03-31T17:00" LateStart="2016-03-31T08:00" LateFinish="2016-03-31T17:00" ActualStart="2016-03-31T08:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="72" UniqueID="134" OutlineLevel="4" PercentComplete="90%" Name="Frm Canje de Documentos" UniqueIDPredecessors="135" ActualDuration="0.9d" Duration="1d" RemainingDuration="0.1d" Start="2016-04-01T08:00" Finish="2016-04-01T17:00" EarlyStart="2016-04-01T08:00" EarlyFinish="2016-04-01T17:00" LateStart="2016-04-01T08:00" LateFinish="2016-04-01T17:00" ActualStart="2016-04-01T08:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="73" UniqueID="140" OutlineLevel="3" PercentComplete="90%" Name="Contabilidad  " UniqueIDPredecessors="134" ActualDuration="1.8d" Duration="2d" RemainingDuration="0.2d" Start="2016-04-04T08:00" Finish="2016-04-05T17:00" EarlyStart="2016-04-04T08:00" EarlyFinish="2016-04-05T17:00" LateStart="2016-04-04T08:00" LateFinish="2016-04-05T17:00" ActualStart="2016-04-04T08:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="74" UniqueID="139" OutlineLevel="4" PercentComplete="90%" Name="Caja  y Bancos   " UniqueIDPredecessors="140" ActualDuration="0.9d" Duration="1d" RemainingDuration="0.1d" Start="2016-04-04T08:00" Finish="2016-04-04T17:00" EarlyStart="2016-04-04T08:00" EarlyFinish="2016-04-04T17:00" LateStart="2016-04-04T08:00" LateFinish="2016-04-04T17:00" ActualStart="2016-04-04T08:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="75" UniqueID="138" OutlineLevel="4" PercentComplete="90%" Name="Facturaci&#243;n" UniqueIDPredecessors="139" ActualDuration="0.9d" Duration="1d" RemainingDuration="0.1d" Start="2016-04-05T08:00" Finish="2016-04-05T17:00" EarlyStart="2016-04-05T08:00" EarlyFinish="2016-04-05T17:00" LateStart="2016-04-05T08:00" LateFinish="2016-04-05T17:00" ActualStart="2016-04-05T08:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="76" UniqueID="212" OutlineLevel="2" PercentComplete="90%" Name="Gesti&#243;n de Fabricaci&#243;n (Producci&#243;n)" UniqueIDPredecessors="138" ActualDuration="43.2d" Duration="48d" RemainingDuration="4.8d" Start="2016-04-06T08:00" Finish="2016-06-10T17:00" EarlyStart="2016-04-06T08:00" EarlyFinish="2016-06-10T17:00" LateStart="2016-04-06T08:00" LateFinish="2016-06-10T17:00" ActualStart="2016-04-06T08:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="77" UniqueID="223" OutlineLevel="3" PercentComplete="90%" Name="Frm Hoja de Costos" UniqueIDPredecessors="212" ActualDuration="0.9d" Duration="1d" RemainingDuration="0.1d" Start="2016-04-06T08:00" Finish="2016-04-06T17:00" EarlyStart="2016-04-06T08:00" EarlyFinish="2016-04-06T17:00" LateStart="2016-04-06T08:00" LateFinish="2016-04-06T17:00" ActualStart="2016-04-06T08:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="78" UniqueID="224" OutlineLevel="3" PercentComplete="90%" Name="Frm Rubro de Costos" UniqueIDPredecessors="223" ActualDuration="0.9d" Duration="1d" RemainingDuration="0.1d" Start="2016-04-07T08:00" Finish="2016-04-07T17:00" EarlyStart="2016-04-07T08:00" EarlyFinish="2016-04-07T17:00" LateStart="2016-04-07T08:00" LateFinish="2016-04-07T17:00" ActualStart="2016-04-07T08:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="79" UniqueID="225" OutlineLevel="3" PercentComplete="90%" Name="Frm Receta Bloque " UniqueIDPredecessors="224" ActualDuration="0.9d" Duration="1d" RemainingDuration="0.1d" Start="2016-04-08T08:00" Finish="2016-04-08T17:00" EarlyStart="2016-04-08T08:00" EarlyFinish="2016-04-08T17:00" LateStart="2016-04-08T08:00" LateFinish="2016-04-08T17:00" ActualStart="2016-04-08T08:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="80" UniqueID="226" OutlineLevel="3" PercentComplete="90%" Name="Frm Generaci&#243;n de Explosi&#243;n de Materiales" UniqueIDPredecessors="225" ActualDuration="0.9d" Duration="1d" RemainingDuration="0.1d" Start="2016-04-11T08:00" Finish="2016-04-11T17:00" EarlyStart="2016-04-11T08:00" EarlyFinish="2016-04-11T17:00" LateStart="2016-04-11T08:00" LateFinish="2016-04-11T17:00" ActualStart="2016-04-11T08:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="81" UniqueID="227" OutlineLevel="3" PercentComplete="90%" Name="Frm Detalle de Explosi&#243;n de Materiales" UniqueIDPredecessors="226" ActualDuration="0.9d" Duration="1d" RemainingDuration="0.1d" Start="2016-04-12T08:00" Finish="2016-04-12T17:00" EarlyStart="2016-04-12T08:00" EarlyFinish="2016-04-12T17:00" LateStart="2016-04-12T08:00" LateFinish="2016-04-12T17:00" ActualStart="2016-04-12T08:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="82" UniqueID="228" OutlineLevel="3" PercentComplete="90%" Name="Frm Dise&#241;ador    " UniqueIDPredecessors="227" ActualDuration="0.9d" Duration="1d" RemainingDuration="0.1d" Start="2016-04-13T08:00" Finish="2016-04-13T17:00" EarlyStart="2016-04-13T08:00" EarlyFinish="2016-04-13T17:00" LateStart="2016-04-13T08:00" LateFinish="2016-04-13T17:00" ActualStart="2016-04-13T08:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="83" UniqueID="229" OutlineLevel="3" PercentComplete="90%" Name="Frm Variante" UniqueIDPredecessors="228" ActualDuration="0.9d" Duration="1d" RemainingDuration="0.1d" Start="2016-04-14T08:00" Finish="2016-04-14T17:00" EarlyStart="2016-04-14T08:00" EarlyFinish="2016-04-14T17:00" LateStart="2016-04-14T08:00" LateFinish="2016-04-14T17:00" ActualStart="2016-04-14T08:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="84" UniqueID="230" OutlineLevel="3" PercentComplete="90%" Name="Frm Parte Prenda" UniqueIDPredecessors="229" ActualDuration="0.9d" Duration="1d" RemainingDuration="0.1d" Start="2016-04-15T08:00" Finish="2016-04-15T17:00" EarlyStart="2016-04-15T08:00" EarlyFinish="2016-04-15T17:00" LateStart="2016-04-15T08:00" LateFinish="2016-04-15T17:00" ActualStart="2016-04-15T08:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="85" UniqueID="231" OutlineLevel="3" PercentComplete="90%" Name="Frm Explosi&#243;n de Materiales" UniqueIDPredecessors="230" ActualDuration="0.9d" Duration="1d" RemainingDuration="0.1d" Start="2016-04-18T08:00" Finish="2016-04-18T17:00" EarlyStart="2016-04-18T08:00" EarlyFinish="2016-04-18T17:00" LateStart="2016-04-18T08:00" LateFinish="2016-04-18T17:00" ActualStart="2016-04-18T08:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="86" UniqueID="232" OutlineLevel="3" PercentComplete="90%" Name="Rpt Explosi&#243;n de Materiales" UniqueIDPredecessors="231" ActualDuration="0.9d" Duration="1d" RemainingDuration="0.1d" Start="2016-04-19T08:00" Finish="2016-04-19T17:00" EarlyStart="2016-04-19T08:00" EarlyFinish="2016-04-19T17:00" LateStart="2016-04-19T08:00" LateFinish="2016-04-19T17:00" ActualStart="2016-04-19T08:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="87" UniqueID="233" OutlineLevel="3" PercentComplete="90%" Name="Frm Movimiento Fase" UniqueIDPredecessors="232" ActualDuration="0.9d" Duration="1d" RemainingDuration="0.1d" Start="2016-04-20T08:00" Finish="2016-04-20T17:00" EarlyStart="2016-04-20T08:00" EarlyFinish="2016-04-20T17:00" LateStart="2016-04-20T08:00" LateFinish="2016-04-20T17:00" ActualStart="2016-04-20T08:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="88" UniqueID="234" OutlineLevel="3" PercentComplete="90%" Name="Frm Orden de Producci&#243;n" UniqueIDPredecessors="233" ActualDuration="0.9d" Duration="1d" RemainingDuration="0.1d" Start="2016-04-21T08:00" Finish="2016-04-21T17:00" EarlyStart="2016-04-21T08:00" EarlyFinish="2016-04-21T17:00" LateStart="2016-04-21T08:00" LateFinish="2016-04-21T17:00" ActualStart="2016-04-21T08:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="89" UniqueID="235" OutlineLevel="3" PercentComplete="90%" Name="Frm Principal modulo de Producci&#243;n" UniqueIDPredecessors="234" ActualDuration="0.9d" Duration="1d" RemainingDuration="0.1d" Start="2016-04-22T08:00" Finish="2016-04-22T17:00" EarlyStart="2016-04-22T08:00" EarlyFinish="2016-04-22T17:00" LateStart="2016-04-22T08:00" LateFinish="2016-04-22T17:00" ActualStart="2016-04-22T08:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="90" UniqueID="236" OutlineLevel="3" PercentComplete="90%" Name="Frm Orden de Servicio" UniqueIDPredecessors="235" ActualDuration="0.9d" Duration="1d" RemainingDuration="0.1d" Start="2016-04-25T08:00" Finish="2016-04-25T17:00" EarlyStart="2016-04-25T08:00" EarlyFinish="2016-04-25T17:00" LateStart="2016-04-25T08:00" LateFinish="2016-04-25T17:00" ActualStart="2016-04-25T08:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="91" UniqueID="237" OutlineLevel="3" PercentComplete="90%" Name="Rpt Orden de Servicio " UniqueIDPredecessors="236" ActualDuration="0.9d" Duration="1d" RemainingDuration="0.1d" Start="2016-04-26T08:00" Finish="2016-04-26T17:00" EarlyStart="2016-04-26T08:00" EarlyFinish="2016-04-26T17:00" LateStart="2016-04-26T08:00" LateFinish="2016-04-26T17:00" ActualStart="2016-04-26T08:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="92" UniqueID="238" OutlineLevel="3" PercentComplete="90%" Name="Frm Proyecci&#243;n " UniqueIDPredecessors="237" ActualDuration="0.9d" Duration="1d" RemainingDuration="0.1d" Start="2016-04-27T08:00" Finish="2016-04-27T17:00" EarlyStart="2016-04-27T08:00" EarlyFinish="2016-04-27T17:00" LateStart="2016-04-27T08:00" LateFinish="2016-04-27T17:00" ActualStart="2016-04-27T08:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="93" UniqueID="239" OutlineLevel="3" PercentComplete="90%" Name="Frm Recetas" UniqueIDPredecessors="238" ActualDuration="0.9d" Duration="1d" RemainingDuration="0.1d" Start="2016-04-28T08:00" Finish="2016-04-28T17:00" EarlyStart="2016-04-28T08:00" EarlyFinish="2016-04-28T17:00" LateStart="2016-04-28T08:00" LateFinish="2016-04-28T17:00" ActualStart="2016-04-28T08:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="94" UniqueID="240" OutlineLevel="3" PercentComplete="90%" Name="Frm Requerimiento    de  Producci&#243;n       " UniqueIDPredecessors="239" ActualDuration="0.9d" Duration="1d" RemainingDuration="0.1d" Start="2016-04-29T08:00" Finish="2016-04-29T17:00" EarlyStart="2016-04-29T08:00" EarlyFinish="2016-04-29T17:00" LateStart="2016-04-29T08:00" LateFinish="2016-04-29T17:00" ActualStart="2016-04-29T08:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="95" UniqueID="241" OutlineLevel="3" PercentComplete="90%" Name="Rpt Requerimiento de Producci&#243;n" UniqueIDPredecessors="240" ActualDuration="0.9d" Duration="1d" RemainingDuration="0.1d" Start="2016-05-02T08:00" Finish="2016-05-02T17:00" EarlyStart="2016-05-02T08:00" EarlyFinish="2016-05-02T17:00" LateStart="2016-05-02T08:00" LateFinish="2016-05-02T17:00" ActualStart="2016-05-02T08:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="96" UniqueID="242" OutlineLevel="3" PercentComplete="90%" Name="Frm Reportes" UniqueIDPredecessors="241" ActualDuration="0.9d" Duration="1d" RemainingDuration="0.1d" Start="2016-05-03T08:00" Finish="2016-05-03T17:00" EarlyStart="2016-05-03T08:00" EarlyFinish="2016-05-03T17:00" LateStart="2016-05-03T08:00" LateFinish="2016-05-03T17:00" ActualStart="2016-05-03T08:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="97" UniqueID="243" OutlineLevel="3" PercentComplete="90%" Name="Frm Status Producci&#243;n" UniqueIDPredecessors="242" ActualDuration="0.9d" Duration="1d" RemainingDuration="0.1d" Start="2016-05-04T08:00" Finish="2016-05-04T17:00" EarlyStart="2016-05-04T08:00" EarlyFinish="2016-05-04T17:00" LateStart="2016-05-04T08:00" LateFinish="2016-05-04T17:00" ActualStart="2016-05-04T08:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="98" UniqueID="244" OutlineLevel="3" PercentComplete="90%" Name="Frm Orden de Pedido" UniqueIDPredecessors="243" ActualDuration="0.9d" Duration="1d" RemainingDuration="0.1d" Start="2016-05-05T08:00" Finish="2016-05-05T17:00" EarlyStart="2016-05-05T08:00" EarlyFinish="2016-05-05T17:00" LateStart="2016-05-05T08:00" LateFinish="2016-05-05T17:00" ActualStart="2016-05-05T08:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="99" UniqueID="245" OutlineLevel="3" PercentComplete="90%" Name="Frm Plan de Capacidad" UniqueIDPredecessors="244" ActualDuration="0.9d" Duration="1d" RemainingDuration="0.1d" Start="2016-05-06T08:00" Finish="2016-05-06T17:00" EarlyStart="2016-05-06T08:00" EarlyFinish="2016-05-06T17:00" LateStart="2016-05-06T08:00" LateFinish="2016-05-06T17:00" ActualStart="2016-05-06T08:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="100" UniqueID="246" OutlineLevel="3" PercentComplete="90%" Name="Frm Articulo " UniqueIDPredecessors="245" ActualDuration="0.9d" Duration="1d" RemainingDuration="0.1d" Start="2016-05-09T08:00" Finish="2016-05-09T17:00" EarlyStart="2016-05-09T08:00" EarlyFinish="2016-05-09T17:00" LateStart="2016-05-09T08:00" LateFinish="2016-05-09T17:00" ActualStart="2016-05-09T08:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="101" UniqueID="247" OutlineLevel="3" PercentComplete="90%" Name="Frm Articulo Color " UniqueIDPredecessors="246" ActualDuration="0.9d" Duration="1d" RemainingDuration="0.1d" Start="2016-05-10T08:00" Finish="2016-05-10T17:00" EarlyStart="2016-05-10T08:00" EarlyFinish="2016-05-10T17:00" LateStart="2016-05-10T08:00" LateFinish="2016-05-10T17:00" ActualStart="2016-05-10T08:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="102" UniqueID="248" OutlineLevel="3" PercentComplete="90%" Name="Frm BotaPie " UniqueIDPredecessors="247" ActualDuration="0.9d" Duration="1d" RemainingDuration="0.1d" Start="2016-05-11T08:00" Finish="2016-05-11T17:00" EarlyStart="2016-05-11T08:00" EarlyFinish="2016-05-11T17:00" LateStart="2016-05-11T08:00" LateFinish="2016-05-11T17:00" ActualStart="2016-05-11T08:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="103" UniqueID="249" OutlineLevel="3" PercentComplete="90%" Name="Frm Categoria " UniqueIDPredecessors="248" ActualDuration="0.9d" Duration="1d" RemainingDuration="0.1d" Start="2016-05-12T08:00" Finish="2016-05-12T17:00" EarlyStart="2016-05-12T08:00" EarlyFinish="2016-05-12T17:00" LateStart="2016-05-12T08:00" LateFinish="2016-05-12T17:00" ActualStart="2016-05-12T08:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="104" UniqueID="250" OutlineLevel="3" PercentComplete="90%" Name="Frm Colecci&#243;n " UniqueIDPredecessors="249" ActualDuration="0.9d" Duration="1d" RemainingDuration="0.1d" Start="2016-05-13T08:00" Finish="2016-05-13T17:00" EarlyStart="2016-05-13T08:00" EarlyFinish="2016-05-13T17:00" LateStart="2016-05-13T08:00" LateFinish="2016-05-13T17:00" ActualStart="2016-05-13T08:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="105" UniqueID="251" OutlineLevel="3" PercentComplete="90%" Name="Frm Color " UniqueIDPredecessors="250" ActualDuration="0.9d" Duration="1d" RemainingDuration="0.1d" Start="2016-05-16T08:00" Finish="2016-05-16T17:00" EarlyStart="2016-05-16T08:00" EarlyFinish="2016-05-16T17:00" LateStart="2016-05-16T08:00" LateFinish="2016-05-16T17:00" ActualStart="2016-05-16T08:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="106" UniqueID="252" OutlineLevel="3" PercentComplete="90%" Name="Frm Dise&#241;ador " UniqueIDPredecessors="251" ActualDuration="0.9d" Duration="1d" RemainingDuration="0.1d" Start="2016-05-17T08:00" Finish="2016-05-17T17:00" EarlyStart="2016-05-17T08:00" EarlyFinish="2016-05-17T17:00" LateStart="2016-05-17T08:00" LateFinish="2016-05-17T17:00" ActualStart="2016-05-17T08:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="107" UniqueID="253" OutlineLevel="3" PercentComplete="90%" Name="Frm Entalle " UniqueIDPredecessors="252" ActualDuration="0.9d" Duration="1d" RemainingDuration="0.1d" Start="2016-05-18T08:00" Finish="2016-05-18T17:00" EarlyStart="2016-05-18T08:00" EarlyFinish="2016-05-18T17:00" LateStart="2016-05-18T08:00" LateFinish="2016-05-18T17:00" ActualStart="2016-05-18T08:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="108" UniqueID="254" OutlineLevel="3" PercentComplete="90%" Name="Frm Estructura " UniqueIDPredecessors="253" ActualDuration="0.9d" Duration="1d" RemainingDuration="0.1d" Start="2016-05-19T08:00" Finish="2016-05-19T17:00" EarlyStart="2016-05-19T08:00" EarlyFinish="2016-05-19T17:00" LateStart="2016-05-19T08:00" LateFinish="2016-05-19T17:00" ActualStart="2016-05-19T08:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="109" UniqueID="255" OutlineLevel="3" PercentComplete="90%" Name="Frm Familia Tela Detalle" UniqueIDPredecessors="254" ActualDuration="0.9d" Duration="1d" RemainingDuration="0.1d" Start="2016-05-20T08:00" Finish="2016-05-20T17:00" EarlyStart="2016-05-20T08:00" EarlyFinish="2016-05-20T17:00" LateStart="2016-05-20T08:00" LateFinish="2016-05-20T17:00" ActualStart="2016-05-20T08:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="110" UniqueID="256" OutlineLevel="3" PercentComplete="90%" Name="Frm Familia Tela  " UniqueIDPredecessors="255" ActualDuration="0.9d" Duration="1d" RemainingDuration="0.1d" Start="2016-05-23T08:00" Finish="2016-05-23T17:00" EarlyStart="2016-05-23T08:00" EarlyFinish="2016-05-23T17:00" LateStart="2016-05-23T08:00" LateFinish="2016-05-23T17:00" ActualStart="2016-05-23T08:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="111" UniqueID="257" OutlineLevel="3" PercentComplete="90%" Name="Frm Genero" UniqueIDPredecessors="256" ActualDuration="0.9d" Duration="1d" RemainingDuration="0.1d" Start="2016-05-24T08:00" Finish="2016-05-24T17:00" EarlyStart="2016-05-24T08:00" EarlyFinish="2016-05-24T17:00" LateStart="2016-05-24T08:00" LateFinish="2016-05-24T17:00" ActualStart="2016-05-24T08:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="112" UniqueID="258" OutlineLevel="3" PercentComplete="90%" Name="Frm Grupo " UniqueIDPredecessors="257" ActualDuration="0.9d" Duration="1d" RemainingDuration="0.1d" Start="2016-05-25T08:00" Finish="2016-05-25T17:00" EarlyStart="2016-05-25T08:00" EarlyFinish="2016-05-25T17:00" LateStart="2016-05-25T08:00" LateFinish="2016-05-25T17:00" ActualStart="2016-05-25T08:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="113" UniqueID="259" OutlineLevel="3" PercentComplete="90%" Name="Frm Linea " UniqueIDPredecessors="258" ActualDuration="0.9d" Duration="1d" RemainingDuration="0.1d" Start="2016-05-26T08:00" Finish="2016-05-26T17:00" EarlyStart="2016-05-26T08:00" EarlyFinish="2016-05-26T17:00" LateStart="2016-05-26T08:00" LateFinish="2016-05-26T17:00" ActualStart="2016-05-26T08:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="114" UniqueID="260" OutlineLevel="3" PercentComplete="90%" Name="Frm Marca" UniqueIDPredecessors="259" ActualDuration="0.9d" Duration="1d" RemainingDuration="0.1d" Start="2016-05-27T08:00" Finish="2016-05-27T17:00" EarlyStart="2016-05-27T08:00" EarlyFinish="2016-05-27T17:00" LateStart="2016-05-27T08:00" LateFinish="2016-05-27T17:00" ActualStart="2016-05-27T08:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="115" UniqueID="261" OutlineLevel="3" PercentComplete="90%" Name="Frm Modelo" UniqueIDPredecessors="260" ActualDuration="0.9d" Duration="1d" RemainingDuration="0.1d" Start="2016-05-30T08:00" Finish="2016-05-30T17:00" EarlyStart="2016-05-30T08:00" EarlyFinish="2016-05-30T17:00" LateStart="2016-05-30T08:00" LateFinish="2016-05-30T17:00" ActualStart="2016-05-30T08:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="116" UniqueID="262" OutlineLevel="3" PercentComplete="90%" Name="Frm Situaci&#243;n " UniqueIDPredecessors="261" ActualDuration="0.9d" Duration="1d" RemainingDuration="0.1d" Start="2016-05-31T08:00" Finish="2016-05-31T17:00" EarlyStart="2016-05-31T08:00" EarlyFinish="2016-05-31T17:00" LateStart="2016-05-31T08:00" LateFinish="2016-05-31T17:00" ActualStart="2016-05-31T08:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="117" UniqueID="263" OutlineLevel="3" PercentComplete="90%" Name="Frm Parte" UniqueIDPredecessors="262" ActualDuration="0.9d" Duration="1d" RemainingDuration="0.1d" Start="2016-06-01T08:00" Finish="2016-06-01T17:00" EarlyStart="2016-06-01T08:00" EarlyFinish="2016-06-01T17:00" LateStart="2016-06-01T08:00" LateFinish="2016-06-01T17:00" ActualStart="2016-06-01T08:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="118" UniqueID="264" OutlineLevel="3" PercentComplete="90%" Name="Frm Parte" UniqueIDPredecessors="263" ActualDuration="0.9d" Duration="1d" RemainingDuration="0.1d" Start="2016-06-02T08:00" Finish="2016-06-02T17:00" EarlyStart="2016-06-02T08:00" EarlyFinish="2016-06-02T17:00" LateStart="2016-06-02T08:00" LateFinish="2016-06-02T17:00" ActualStart="2016-06-02T08:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="119" UniqueID="265" OutlineLevel="3" PercentComplete="90%" Name="Frm Talla" UniqueIDPredecessors="264" ActualDuration="0.9d" Duration="1d" RemainingDuration="0.1d" Start="2016-06-03T08:00" Finish="2016-06-03T17:00" EarlyStart="2016-06-03T08:00" EarlyFinish="2016-06-03T17:00" LateStart="2016-06-03T08:00" LateFinish="2016-06-03T17:00" ActualStart="2016-06-03T08:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="120" UniqueID="266" OutlineLevel="3" PercentComplete="90%" Name="Frm SubColeccion  " UniqueIDPredecessors="265" ActualDuration="0.9d" Duration="1d" RemainingDuration="0.1d" Start="2016-06-06T08:00" Finish="2016-06-06T17:00" EarlyStart="2016-06-06T08:00" EarlyFinish="2016-06-06T17:00" LateStart="2016-06-06T08:00" LateFinish="2016-06-06T17:00" ActualStart="2016-06-06T08:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="121" UniqueID="267" OutlineLevel="3" PercentComplete="90%" Name="Frm Tarjeta " UniqueIDPredecessors="266" ActualDuration="0.9d" Duration="1d" RemainingDuration="0.1d" Start="2016-06-07T08:00" Finish="2016-06-07T17:00" EarlyStart="2016-06-07T08:00" EarlyFinish="2016-06-07T17:00" LateStart="2016-06-07T08:00" LateFinish="2016-06-07T17:00" ActualStart="2016-06-07T08:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="122" UniqueID="268" OutlineLevel="3" PercentComplete="90%" Name="Frm Tarjeta Grupo " UniqueIDPredecessors="267" ActualDuration="0.9d" Duration="1d" RemainingDuration="0.1d" Start="2016-06-08T08:00" Finish="2016-06-08T17:00" EarlyStart="2016-06-08T08:00" EarlyFinish="2016-06-08T17:00" LateStart="2016-06-08T08:00" LateFinish="2016-06-08T17:00" ActualStart="2016-06-08T08:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="123" UniqueID="269" OutlineLevel="3" PercentComplete="90%" Name="Frm Temporada " UniqueIDPredecessors="268" ActualDuration="0.9d" Duration="1d" RemainingDuration="0.1d" Start="2016-06-09T08:00" Finish="2016-06-09T17:00" EarlyStart="2016-06-09T08:00" EarlyFinish="2016-06-09T17:00" LateStart="2016-06-09T08:00" LateFinish="2016-06-09T17:00" ActualStart="2016-06-09T08:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="124" UniqueID="270" OutlineLevel="3" PercentComplete="90%" Name="Frm Tejido" UniqueIDPredecessors="269" ActualDuration="0.9d" Duration="1d" RemainingDuration="0.1d" Start="2016-06-10T08:00" Finish="2016-06-10T17:00" EarlyStart="2016-06-10T08:00" EarlyFinish="2016-06-10T17:00" LateStart="2016-06-10T08:00" LateFinish="2016-06-10T17:00" ActualStart="2016-06-10T08:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="125" UniqueID="278" OutlineLevel="2" PercentComplete="90%" Name="Gesti&#243;n de Almacenes (Materiales de Prod.)" UniqueIDPredecessors="270" ActualDuration="10.8d" Duration="12d" RemainingDuration="1.2d" Start="2016-06-13T08:00" Finish="2016-06-28T17:00" EarlyStart="2016-06-13T08:00" EarlyFinish="2016-06-28T17:00" LateStart="2016-06-13T08:00" LateFinish="2016-06-28T17:00" ActualStart="2016-06-13T08:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="126" UniqueID="279" OutlineLevel="3" PercentComplete="90%" Name="Frm Apertura Caja" UniqueIDPredecessors="278" ActualDuration="0.9d" Duration="1d" RemainingDuration="0.1d" Start="2016-06-13T08:00" Finish="2016-06-13T17:00" EarlyStart="2016-06-13T08:00" EarlyFinish="2016-06-13T17:00" LateStart="2016-06-13T08:00" LateFinish="2016-06-13T17:00" ActualStart="2016-06-13T08:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="127" UniqueID="280" OutlineLevel="3" PercentComplete="90%" Name="Frm Digitaci&#243;n de Inventario" UniqueIDPredecessors="279" ActualDuration="0.9d" Duration="1d" RemainingDuration="0.1d" Start="2016-06-14T08:00" Finish="2016-06-14T17:00" EarlyStart="2016-06-14T08:00" EarlyFinish="2016-06-14T17:00" LateStart="2016-06-14T08:00" LateFinish="2016-06-14T17:00" ActualStart="2016-06-14T08:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="128" UniqueID="281" OutlineLevel="3" PercentComplete="90%" Name="Frm Digitaci&#243;n de Inventario Rollo&#180;" UniqueIDPredecessors="280" ActualDuration="0.9d" Duration="1d" RemainingDuration="0.1d" Start="2016-06-15T08:00" Finish="2016-06-15T17:00" EarlyStart="2016-06-15T08:00" EarlyFinish="2016-06-15T17:00" LateStart="2016-06-15T08:00" LateFinish="2016-06-15T17:00" ActualStart="2016-06-15T08:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="129" UniqueID="282" OutlineLevel="3" PercentComplete="90%" Name="Frm Movimiento" UniqueIDPredecessors="281" ActualDuration="0.9d" Duration="1d" RemainingDuration="0.1d" Start="2016-06-16T08:00" Finish="2016-06-16T17:00" EarlyStart="2016-06-16T08:00" EarlyFinish="2016-06-16T17:00" LateStart="2016-06-16T08:00" LateFinish="2016-06-16T17:00" ActualStart="2016-06-16T08:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="130" UniqueID="283" OutlineLevel="3" PercentComplete="90%" Name="Frm Movimiento Rollos" UniqueIDPredecessors="282" ActualDuration="0.9d" Duration="1d" RemainingDuration="0.1d" Start="2016-06-17T08:00" Finish="2016-06-17T17:00" EarlyStart="2016-06-17T08:00" EarlyFinish="2016-06-17T17:00" LateStart="2016-06-17T08:00" LateFinish="2016-06-17T17:00" ActualStart="2016-06-17T08:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="131" UniqueID="284" OutlineLevel="3" PercentComplete="90%" Name="Frm Carga de Productos" UniqueIDPredecessors="283" ActualDuration="0.9d" Duration="1d" RemainingDuration="0.1d" Start="2016-06-20T08:00" Finish="2016-06-20T17:00" EarlyStart="2016-06-20T08:00" EarlyFinish="2016-06-20T17:00" LateStart="2016-06-20T08:00" LateFinish="2016-06-20T17:00" ActualStart="2016-06-20T08:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="132" UniqueID="285" OutlineLevel="3" PercentComplete="90%" Name="Frm Reporte de Consumo" UniqueIDPredecessors="284" ActualDuration="0.9d" Duration="1d" RemainingDuration="0.1d" Start="2016-06-21T08:00" Finish="2016-06-21T17:00" EarlyStart="2016-06-21T08:00" EarlyFinish="2016-06-21T17:00" LateStart="2016-06-21T08:00" LateFinish="2016-06-21T17:00" ActualStart="2016-06-21T08:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="133" UniqueID="286" OutlineLevel="3" PercentComplete="90%" Name="Frm Reporte de Diferencia de inventario" UniqueIDPredecessors="285" ActualDuration="0.9d" Duration="1d" RemainingDuration="0.1d" Start="2016-06-22T08:00" Finish="2016-06-22T17:00" EarlyStart="2016-06-22T08:00" EarlyFinish="2016-06-22T17:00" LateStart="2016-06-22T08:00" LateFinish="2016-06-22T17:00" ActualStart="2016-06-22T08:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="134" UniqueID="287" OutlineLevel="3" PercentComplete="90%" Name="Frm Reporte de Diferencia de inventario Rollos" UniqueIDPredecessors="286" ActualDuration="0.9d" Duration="1d" RemainingDuration="0.1d" Start="2016-06-23T08:00" Finish="2016-06-23T17:00" EarlyStart="2016-06-23T08:00" EarlyFinish="2016-06-23T17:00" LateStart="2016-06-23T08:00" LateFinish="2016-06-23T17:00" ActualStart="2016-06-23T08:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="135" UniqueID="288" OutlineLevel="3" PercentComplete="90%" Name="Frm Reporte Historial por Estaci&#243;n" UniqueIDPredecessors="287" ActualDuration="0.9d" Duration="1d" RemainingDuration="0.1d" Start="2016-06-24T08:00" Finish="2016-06-24T17:00" EarlyStart="2016-06-24T08:00" EarlyFinish="2016-06-24T17:00" LateStart="2016-06-24T08:00" LateFinish="2016-06-24T17:00" ActualStart="2016-06-24T08:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="136" UniqueID="289" OutlineLevel="3" PercentComplete="90%" Name="Frm Reporte Historial por Productos" UniqueIDPredecessors="288" ActualDuration="0.9d" Duration="1d" RemainingDuration="0.1d" Start="2016-06-27T08:00" Finish="2016-06-27T17:00" EarlyStart="2016-06-27T08:00" EarlyFinish="2016-06-27T17:00" LateStart="2016-06-27T08:00" LateFinish="2016-06-27T17:00" ActualStart="2016-06-27T08:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="137" UniqueID="290" OutlineLevel="3" PercentComplete="90%" Name="Frm Reporte Movimiento Balance Stock" UniqueIDPredecessors="289" ActualDuration="0.9d" Duration="1d" RemainingDuration="0.1d" Start="2016-06-28T08:00" Finish="2016-06-28T17:00" EarlyStart="2016-06-28T08:00" EarlyFinish="2016-06-28T17:00" LateStart="2016-06-28T08:00" LateFinish="2016-06-28T17:00" ActualStart="2016-06-28T08:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="138" UniqueID="294" OutlineLevel="2" PercentComplete="90%" Name="Gesti&#243;n Comercial  (Ventas  y  Marketing)" UniqueIDPredecessors="290" ActualDuration="16.2d" Duration="18d" RemainingDuration="1.8d" Start="2016-06-29T08:00" Finish="2016-07-22T17:00" EarlyStart="2016-06-29T08:00" EarlyFinish="2016-07-22T17:00" LateStart="2016-06-29T08:00" LateFinish="2016-07-22T17:00" ActualStart="2016-06-29T08:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="139" UniqueID="296" OutlineLevel="3" PercentComplete="90%" Name="Almac&#233;n de Distribuci&#243;n(APT) " UniqueIDPredecessors="294" ActualDuration="8.1d" Duration="9d" RemainingDuration="0.9d" Start="2016-06-29T08:00" Finish="2016-07-11T17:00" EarlyStart="2016-06-29T08:00" EarlyFinish="2016-07-11T17:00" LateStart="2016-06-29T08:00" LateFinish="2016-07-11T17:00" ActualStart="2016-06-29T08:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="140" UniqueID="304" OutlineLevel="4" PercentComplete="90%" Name="Frm Movimientos de Almac&#233;n   " UniqueIDPredecessors="296" ActualDuration="0.9d" Duration="1d" RemainingDuration="0.1d" Start="2016-06-29T08:00" Finish="2016-06-29T17:00" EarlyStart="2016-06-29T08:00" EarlyFinish="2016-06-29T17:00" LateStart="2016-06-29T08:00" LateFinish="2016-06-29T17:00" ActualStart="2016-06-29T08:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="141" UniqueID="306" OutlineLevel="4" PercentComplete="90%" Name="Frm Movimientos" UniqueIDPredecessors="304" ActualDuration="0.9d" Duration="1d" RemainingDuration="0.1d" Start="2016-06-30T08:00" Finish="2016-06-30T17:00" EarlyStart="2016-06-30T08:00" EarlyFinish="2016-06-30T17:00" LateStart="2016-06-30T08:00" LateFinish="2016-06-30T17:00" ActualStart="2016-06-30T08:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="142" UniqueID="307" OutlineLevel="4" PercentComplete="90%" Name="Frm Toma de Inventario" UniqueIDPredecessors="306" ActualDuration="0.9d" Duration="1d" RemainingDuration="0.1d" Start="2016-07-01T08:00" Finish="2016-07-01T17:00" EarlyStart="2016-07-01T08:00" EarlyFinish="2016-07-01T17:00" LateStart="2016-07-01T08:00" LateFinish="2016-07-01T17:00" ActualStart="2016-07-01T08:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="143" UniqueID="308" OutlineLevel="4" PercentComplete="90%" Name="Rpt Liquidaci&#243;n de Inventario  " UniqueIDPredecessors="307" ActualDuration="0.9d" Duration="1d" RemainingDuration="0.1d" Start="2016-07-04T08:00" Finish="2016-07-04T17:00" EarlyStart="2016-07-04T08:00" EarlyFinish="2016-07-04T17:00" LateStart="2016-07-04T08:00" LateFinish="2016-07-04T17:00" ActualStart="2016-07-04T08:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="144" UniqueID="309" OutlineLevel="4" PercentComplete="90%" Name="Rpt Doc. Emitidos    " UniqueIDPredecessors="308" ActualDuration="0.9d" Duration="1d" RemainingDuration="0.1d" Start="2016-07-05T08:00" Finish="2016-07-05T17:00" EarlyStart="2016-07-05T08:00" EarlyFinish="2016-07-05T17:00" LateStart="2016-07-05T08:00" LateFinish="2016-07-05T17:00" ActualStart="2016-07-05T08:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="145" UniqueID="310" OutlineLevel="4" PercentComplete="90%" Name="Rtp Movimientos     " UniqueIDPredecessors="309" ActualDuration="0.9d" Duration="1d" RemainingDuration="0.1d" Start="2016-07-06T08:00" Finish="2016-07-06T17:00" EarlyStart="2016-07-06T08:00" EarlyFinish="2016-07-06T17:00" LateStart="2016-07-06T08:00" LateFinish="2016-07-06T17:00" ActualStart="2016-07-06T08:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="146" UniqueID="311" OutlineLevel="4" PercentComplete="90%" Name="Rpt Kardex     " UniqueIDPredecessors="310" ActualDuration="0.9d" Duration="1d" RemainingDuration="0.1d" Start="2016-07-07T08:00" Finish="2016-07-07T17:00" EarlyStart="2016-07-07T08:00" EarlyFinish="2016-07-07T17:00" LateStart="2016-07-07T08:00" LateFinish="2016-07-07T17:00" ActualStart="2016-07-07T08:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="147" UniqueID="312" OutlineLevel="4" PercentComplete="90%" Name="Rpt Ventas" UniqueIDPredecessors="311" ActualDuration="0.9d" Duration="1d" RemainingDuration="0.1d" Start="2016-07-08T08:00" Finish="2016-07-08T17:00" EarlyStart="2016-07-08T08:00" EarlyFinish="2016-07-08T17:00" LateStart="2016-07-08T08:00" LateFinish="2016-07-08T17:00" ActualStart="2016-07-08T08:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="148" UniqueID="313" OutlineLevel="4" PercentComplete="90%" Name="Rpt Stock     " UniqueIDPredecessors="312" ActualDuration="0.9d" Duration="1d" RemainingDuration="0.1d" Start="2016-07-11T08:00" Finish="2016-07-11T17:00" EarlyStart="2016-07-11T08:00" EarlyFinish="2016-07-11T17:00" LateStart="2016-07-11T08:00" LateFinish="2016-07-11T17:00" ActualStart="2016-07-11T08:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="149" UniqueID="303" OutlineLevel="3" PercentComplete="90%" Name="Punto de Venta(Tiendas) " UniqueIDPredecessors="304,313" ActualDuration="8.1d" Duration="9d" RemainingDuration="0.9d" Start="2016-07-12T08:00" Finish="2016-07-22T17:00" EarlyStart="2016-07-12T08:00" EarlyFinish="2016-07-22T17:00" LateStart="2016-07-12T08:00" LateFinish="2016-07-22T17:00" ActualStart="2016-07-12T08:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="150" UniqueID="305" OutlineLevel="4" PercentComplete="90%" Name="Frm Movimientos de Almac&#233;n" UniqueIDPredecessors="303" ActualDuration="0.9d" Duration="1d" RemainingDuration="0.1d" Start="2016-07-12T08:00" Finish="2016-07-12T17:00" EarlyStart="2016-07-12T08:00" EarlyFinish="2016-07-12T17:00" LateStart="2016-07-12T08:00" LateFinish="2016-07-12T17:00" ActualStart="2016-07-12T08:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="151" UniqueID="316" OutlineLevel="4" PercentComplete="90%" Name="Frm Facturaci&#243;n " UniqueIDPredecessors="305" ActualDuration="0.9d" Duration="1d" RemainingDuration="0.1d" Start="2016-07-13T08:00" Finish="2016-07-13T17:00" EarlyStart="2016-07-13T08:00" EarlyFinish="2016-07-13T17:00" LateStart="2016-07-13T08:00" LateFinish="2016-07-13T17:00" ActualStart="2016-07-13T08:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="152" UniqueID="317" OutlineLevel="4" PercentComplete="90%" Name="Frm Toma de Inventario  " UniqueIDPredecessors="316" ActualDuration="0.9d" Duration="1d" RemainingDuration="0.1d" Start="2016-07-14T08:00" Finish="2016-07-14T17:00" EarlyStart="2016-07-14T08:00" EarlyFinish="2016-07-14T17:00" LateStart="2016-07-14T08:00" LateFinish="2016-07-14T17:00" ActualStart="2016-07-14T08:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="153" UniqueID="318" OutlineLevel="4" PercentComplete="90%" Name="Rpt Liquidaci&#243;n de Inventario  " UniqueIDPredecessors="317" ActualDuration="0.9d" Duration="1d" RemainingDuration="0.1d" Start="2016-07-15T08:00" Finish="2016-07-15T17:00" EarlyStart="2016-07-15T08:00" EarlyFinish="2016-07-15T17:00" LateStart="2016-07-15T08:00" LateFinish="2016-07-15T17:00" ActualStart="2016-07-15T08:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="154" UniqueID="319" OutlineLevel="4" PercentComplete="90%" Name="Rpt Doc. Emitidos     " UniqueIDPredecessors="318" ActualDuration="0.9d" Duration="1d" RemainingDuration="0.1d" Start="2016-07-18T08:00" Finish="2016-07-18T17:00" EarlyStart="2016-07-18T08:00" EarlyFinish="2016-07-18T17:00" LateStart="2016-07-18T08:00" LateFinish="2016-07-18T17:00" ActualStart="2016-07-18T08:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="155" UniqueID="320" OutlineLevel="4" PercentComplete="90%" Name="Frm Liquidaci&#243;n de Caja Diario" UniqueIDPredecessors="319" ActualDuration="0.9d" Duration="1d" RemainingDuration="0.1d" Start="2016-07-19T08:00" Finish="2016-07-19T17:00" EarlyStart="2016-07-19T08:00" EarlyFinish="2016-07-19T17:00" LateStart="2016-07-19T08:00" LateFinish="2016-07-19T17:00" ActualStart="2016-07-19T08:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="156" UniqueID="321" OutlineLevel="4" PercentComplete="90%" Name="Rpt Kardex     " UniqueIDPredecessors="320" ActualDuration="0.9d" Duration="1d" RemainingDuration="0.1d" Start="2016-07-20T08:00" Finish="2016-07-20T17:00" EarlyStart="2016-07-20T08:00" EarlyFinish="2016-07-20T17:00" LateStart="2016-07-20T08:00" LateFinish="2016-07-20T17:00" ActualStart="2016-07-20T08:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="157" UniqueID="322" OutlineLevel="4" PercentComplete="90%" Name="Rpt Ventas" UniqueIDPredecessors="321" ActualDuration="0.9d" Duration="1d" RemainingDuration="0.1d" Start="2016-07-21T08:00" Finish="2016-07-21T17:00" EarlyStart="2016-07-21T08:00" EarlyFinish="2016-07-21T17:00" LateStart="2016-07-21T08:00" LateFinish="2016-07-21T17:00" ActualStart="2016-07-21T08:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="158" UniqueID="323" OutlineLevel="4" PercentComplete="90%" Name="Rpt Stock   " UniqueIDPredecessors="322" ActualDuration="0.9d" Duration="1d" RemainingDuration="0.1d" ConstraintDate="2016-01-04T17:00" Start="2016-07-22T08:00" Finish="2016-07-22T17:00" EarlyStart="2016-07-22T08:00" EarlyFinish="2016-07-22T17:00" LateStart="2016-07-22T08:00" LateFinish="2016-07-22T17:00" ActualStart="2016-07-22T08:00" Critical="yes" EffortDriven="yes" ConstraintType="Finish No Earlier Than" FixedCostAccrual="Prorated"/>
+		</tasks>
+		<outline current="54"/>
+	</proj>
+	<printInfo mode="scale" orient="landscape" pagesWide="1" pagesHigh="1" scale="100%" bw="no" enlarge="no" byColumn="no" adjustPageBreaks="no" marginTop="36pt" marginLeft="36pt" marginBottom="36pt" marginRight="36pt"/>
+	<pageLayouts>
+		<pageLayout id="Page Layout 1" description="WBS Chart Top/Left aligned.&#13;&#10;Title field above chart with border around Title field. &#13;&#10;Border around outside pages.&#13;&#10;Page numbers upper right." SheetNumbers="yes">
+			<grid id="frame" rows="2" cols="1">
+				<row>
+					<cell field="pTitle" font-size="10pt" bold="yes" left_p="0.7pt" right_p="0.7pt" top_p="3.6pt" bottom_p="3.6pt" right_s="solid" bottom_s="solid" stretch="yes"/>
+				</row>
+				<row stretch="yes">
+					<cell field="p (Chart)" halign="left" valign="top" left_p="7.2pt" right_p="7.2pt" top_p="7.2pt" bottom_p="7.2pt" left_s="solid" right_s="solid" top_s="solid" bottom_s="solid"/>
+				</row>
+			</grid>
+			<border id="frame" bkcolor="none"/>
+		</pageLayout>
+		<pageLayout id="Page Layout 2" description="WBS Chart Top/Left aligned.&#13;&#10;Title field displayed above chart no border. &#13;&#10;Page numbers upper right." SheetNumbers="yes">
+			<grid id="frame" rows="2" cols="1" top="1">
+				<row>
+					<cell field="pTitle" font-size="10pt" bold="yes" left_p="0.7pt" right_p="0.7pt" top_p="1.45pt" bottom_p="1.45pt" stretch="yes"/>
+				</row>
+				<row stretch="yes">
+					<cell field="p (Chart)" halign="left" valign="top" left_p="7.2pt" right_p="7.2pt" top_p="7.2pt" bottom_p="7.2pt"/>
+				</row>
+			</grid>
+			<border id="frame" bkcolor="none"/>
+		</pageLayout>
+		<pageLayout id="Page Layout 3" description="WBS Chart Top/Left aligned.&#13;&#10;Title field above chart. &#13;&#10;&quot;Printed on&quot; Date in lower left corner.&#13;&#10;Border around every page.&#13;&#10;Page numbers in lower right. " BorderEveryPage="yes">
+			<grid id="frame" rows="3" cols="2">
+				<row>
+					<cell field="pTitle" font-size="10pt" bold="yes" left_p="0.7pt" right_p="0.7pt" top_p="3.6pt" bottom_p="3.6pt" left_s="solid" right_s="solid" bottom_s="solid" colspan="2" stretch="yes"/>
+				</row>
+				<row stretch="yes">
+					<cell field="p (Chart)" halign="left" valign="top" left_p="7.2pt" right_p="7.2pt" top_p="7.2pt" bottom_p="7.2pt" left_s="solid" right_s="solid" top_s="solid" bottom_s="solid" colspan="2"/>
+				</row>
+				<row>
+					<cell field="pCurrent Date" format="2" halign="left" label="Printed on: " left_p="3.6pt" right_p="3.6pt" top_p="2.15pt" bottom_p="2.15pt" top_s="solid"/>
+					<cell field="p (Page Number)" format="13" halign="right" left_p="3.6pt" right_p="3.6pt" top_p="2.15pt" bottom_p="2.15pt" top_s="solid" stretch="yes"/>
+				</row>
+			</grid>
+			<border id="frame" bkcolor="none"/>
+		</pageLayout>
+		<pageLayout id="Page Layout 4" description="WBS Chart Top/Left aligned.&#13;&#10;Title field above chart. &#13;&#10;&quot;Printed on&quot; date in lower left corner.&#13;&#10;Border around every page.&#13;&#10;Page numbers in lower right. &#13;&#10;No border around outside fields." BorderEveryPage="yes">
+			<grid id="frame" rows="3" cols="2" top="1" bottom="1">
+				<row>
+					<cell field="pTitle" font-size="10pt" bold="yes" left_p="0.7pt" right_p="0.7pt" top_p="3.6pt" bottom_p="3.6pt" colspan="2" stretch="yes"/>
+				</row>
+				<row stretch="yes">
+					<cell field="p (Chart)" halign="left" valign="top" left_p="7.2pt" right_p="7.2pt" top_p="7.2pt" bottom_p="7.2pt" colspan="2"/>
+				</row>
+				<row>
+					<cell field="pCurrent Date" format="2" halign="left" label="Printed on: " left_p="3.6pt" right_p="3.6pt" top_p="2.15pt" bottom_p="2.15pt"/>
+					<cell field="p (Page Number)" format="13" halign="right" left_p="3.6pt" right_p="3.6pt" top_p="2.15pt" bottom_p="2.15pt" stretch="yes"/>
+				</row>
+			</grid>
+			<border id="frame" bkcolor="none"/>
+		</pageLayout>
+		<pageLayout id="Page Layout 5" description="WBS Chart Top/Left aligned.&#13;&#10;Title field above chart. &#13;&#10;&quot;Printed on&quot; date in lower left corner.&#13;&#10;Company below and center.&#13;&#10;&quot;Project Completion&quot; date lower right.&#13;&#10;Page number lower left.&#13;&#10;Manager below center.&#13;&#10;CONFIDENTIAL lower right.&#13;&#10;Border around outside pages. &#13;&#10;Page numbers in upper right. " SheetNumbers="yes">
+			<grid id="frame" rows="4" cols="3">
+				<row>
+					<cell field="pTitle" font-size="10pt" bold="yes" left_p="0.7pt" right_p="0.7pt" top_p="3.6pt" bottom_p="3.6pt" left_s="solid" right_s="solid" bottom_s="solid" colspan="3" stretch="yes"/>
+				</row>
+				<row stretch="yes">
+					<cell field="p (Chart)" halign="left" valign="top" left_p="7.2pt" right_p="7.2pt" top_p="7.2pt" bottom_p="7.2pt" left_s="solid" right_s="solid" top_s="solid" bottom_s="solid" colspan="3"/>
+				</row>
+				<row>
+					<cell field="pCurrent Date" format="2" label="Printed On: " left_p="3.6pt" right_p="3.6pt" top_p="2.15pt" bottom_p="2.15pt" right_s="solid" top_s="solid" bottom_s="solid"/>
+					<cell field="pCompany" left_p="3.6pt" right_p="3.6pt" top_p="2.15pt" bottom_p="2.15pt" left_s="solid" right_s="solid" top_s="solid" bottom_s="solid" stretch="yes"/>
+					<cell field="pFinish" label="Project Completion: " left_p="3.6pt" right_p="3.6pt" top_p="3.6pt" bottom_p="3.6pt" left_s="solid" top_s="solid" bottom_s="solid" stretch="yes"/>
+				</row>
+				<row>
+					<cell field="p (Page Number)" format="13" left_p="3.6pt" right_p="3.6pt" top_p="2.15pt" bottom_p="2.15pt" right_s="solid" top_s="solid"/>
+					<cell field="pManager" left_p="3.6pt" right_p="3.6pt" top_p="2.15pt" bottom_p="2.15pt" left_s="solid" right_s="solid" top_s="solid"/>
+					<cell bold="yes" label="CONFIDENTIAL" left_p="3.6pt" right_p="3.6pt" top_p="2.15pt" bottom_p="2.15pt" left_s="solid" top_s="solid"/>
+				</row>
+			</grid>
+			<border id="frame" bkcolor="none"/>
+		</pageLayout>
+		<pageLayout id="Page Layout 6" description="WBS Chart Top/Left aligned.&#13;&#10;Title field above chart. &#13;&#10;&quot;Printed on&quot; date in lower left corner.&#13;&#10;Manager below center.&#13;&#10;CONFIDENTIAL lower right.&#13;&#10;Border around outside pages. &#13;&#10;Page numbers in upper right. " SheetNumbers="yes">
+			<grid id="frame" rows="3" cols="3" top="1" bottom="1">
+				<row>
+					<cell field="pTitle" font-size="10pt" bold="yes" left_p="0.7pt" right_p="0.7pt" top_p="3.6pt" bottom_p="3.6pt" colspan="3" stretch="yes"/>
+				</row>
+				<row stretch="yes">
+					<cell field="p (Chart)" halign="left" valign="top" left_p="7.2pt" right_p="7.2pt" top_p="7.2pt" bottom_p="7.2pt" colspan="3"/>
+				</row>
+				<row>
+					<cell field="pCurrent Date" format="2" halign="left" label="Printed on: " left_p="3.6pt" right_p="3.6pt" top_p="2.15pt" bottom_p="2.15pt"/>
+					<cell field="pManager" left_p="3.6pt" right_p="3.6pt" top_p="2.15pt" bottom_p="2.15pt" stretch="yes"/>
+					<cell halign="right" bold="yes" label="CONFIDENTIAL" left_p="3.6pt" right_p="3.6pt" top_p="2.15pt" bottom_p="2.15pt" stretch="yes"/>
+				</row>
+			</grid>
+			<border id="frame" bkcolor="none"/>
+		</pageLayout>
+		<pageLayout id="Page Layout 7" description="WBS Chart Top/Left aligned.&#13;&#10;Title field above chart with border around Title field. &#13;&#10;Border around outside pages.&#13;&#10;Legend of Fields at bottom." SheetNumbers="yes">
+			<grid id="frame" rows="3" cols="1">
+				<row>
+					<cell field="pTitle" font-size="10pt" bold="yes" left_p="0.7pt" right_p="0.7pt" top_p="3.6pt" bottom_p="3.6pt" bottom_s="solid" stretch="yes"/>
+				</row>
+				<row stretch="yes">
+					<cell field="p (Chart)" halign="left" valign="top" left_p="7.2pt" right_p="7.2pt" top_p="7.2pt" bottom_p="7.2pt" top_s="solid" bottom_s="solid"/>
+				</row>
+				<row>
+					<cell field="p (Legend: Fields)" halign="left" label="Fields" left_p="3.6pt" right_p="3.6pt" top_p="2.15pt" bottom_p="2.15pt" top_s="solid"/>
+				</row>
+			</grid>
+			<border id="frame" bkcolor="none"/>
+		</pageLayout>
+		<pageLayout id="Page Layout 8" description="WBS Chart Top/Left aligned.&#13;&#10;Title field above chart with border around Title field. &#13;&#10;Border around outside pages.&#13;&#10;Legend of Fields and Legend of Box Border styles at bottom. " SheetNumbers="yes">
+			<grid id="frame" rows="3" cols="2">
+				<row>
+					<cell field="pTitle" font-size="10pt" bold="yes" left_p="0.7pt" right_p="0.7pt" top_p="3.6pt" bottom_p="3.6pt" left_s="solid" right_s="solid" bottom_s="solid" colspan="2"/>
+				</row>
+				<row stretch="yes">
+					<cell field="p (Chart)" halign="left" valign="top" left_p="7.2pt" right_p="7.2pt" top_p="7.2pt" bottom_p="7.2pt" left_s="solid" right_s="solid" top_s="solid" bottom_s="solid" colspan="2"/>
+				</row>
+				<row>
+					<cell field="p (Legend: Fields)" label="Fields" left_p="3.6pt" right_p="3.6pt" top_p="2.15pt" bottom_p="2.15pt" top_s="solid"/>
+					<cell field="p (Legend: Borders)" format="1" halign="left" left_p="3.6pt" right_p="3.6pt" top_p="2.15pt" bottom_p="2.15pt" left_s="solid" top_s="solid" stretch="yes"/>
+				</row>
+			</grid>
+			<border id="frame" bkcolor="none"/>
+		</pageLayout>
+		<pageLayout id="Page Layout 9" description="WBS Chart Top/Left aligned.&#13;&#10;Title field above chart with border around Title field. &#13;&#10;Border around outside pages.&#13;&#10;Legend of Summary Tasks Fields, Task Fields and Legend of Box Border styles at bottom. " SheetNumbers="yes">
+			<grid id="frame" rows="3" cols="3">
+				<row>
+					<cell field="pTitle" font-size="10pt" bold="yes" left_p="0.7pt" right_p="0.7pt" top_p="3.6pt" bottom_p="3.6pt" left_s="solid" right_s="solid" bottom_s="solid" colspan="3"/>
+				</row>
+				<row stretch="yes">
+					<cell field="p (Chart)" halign="left" valign="top" left_p="7.2pt" right_p="7.2pt" top_p="7.2pt" bottom_p="7.2pt" left_s="solid" right_s="solid" top_s="solid" bottom_s="solid" colspan="3"/>
+				</row>
+				<row>
+					<cell field="p (Legend: Fields)" label="Summary Task Fields" left_p="3.6pt" right_p="3.6pt" top_p="2.15pt" bottom_p="2.15pt" top_s="solid"/>
+					<cell field="p (Legend: Fields)" format="1" label="Task Fields" left_p="3.6pt" right_p="3.6pt" top_p="2.15pt" bottom_p="2.15pt" right_s="solid" top_s="solid"/>
+					<cell field="p (Legend: Borders)" format="1" left_p="3.6pt" right_p="3.6pt" top_p="2.15pt" bottom_p="2.15pt" left_s="solid" top_s="solid" stretch="yes"/>
+				</row>
+			</grid>
+			<border id="frame" bkcolor="none"/>
+		</pageLayout>
+	</pageLayouts>
+	<views current="Critical Path View 2" current_wbs="Critical Path View 2" mode="normal">
+		<wbs_view id="Critical Path View 2" pagelayout="Page Layout 8" outlinesymbolpos="bottomcenter" field="Duration">
+			<item id="summary" before="14.4pt"/>
+			<item id="task" before="7.2pt" listmode="stemleft"/>
+			<border id="Critical Task" shdir="bottom_right" shdepth="3pt" shcolor="red" bkcolor="lightyellow"/>
+			<border id="Critical Milestone" shdir="bottom_right" shdepth="3pt" shcolor="red" bkcolor="lightyellow"/>
+			<border id="Critical Summary" shdir="bottom_right" shdepth="3pt" shcolor="red" bkcolor="lightyellow"/>
+			<border id="Noncritical Task" shdir="bottom_right" shdepth="3pt" shcolor="blue" bkcolor="lightyellow"/>
+			<border id="Noncritical Milestone" shdir="bottom_right" shdepth="3pt" shcolor="blue" bkcolor="lightyellow"/>
+			<border id="Noncritical Summary" shdir="bottom_right" shdepth="3pt" shcolor="blue" bkcolor="lightyellow"/>
+			<border id="External Task" shdir="bottom_right" shdepth="3pt" shcolor="gray" color="gray">
+				<border_edge id="top" color="gray"/>
+				<border_edge id="left" color="gray"/>
+				<border_edge id="bottom" color="gray"/>
+				<border_edge id="right" color="gray"/>
+			</border>
+			<grid id="summary" rows="4" cols="3" top="1">
+				<row>
+					<cell field="WBS" halign="left" bold="yes" color="red" left_p="0.7pt" right_p="0.7pt" top_p="0pt" bottom_p="0pt" colspan="3"/>
+				</row>
+				<row stretch="yes">
+					<cell field="ID" bold="yes" orient="bottomtop" bkcolor="yellow" left_p="0.7pt" right_p="0.7pt" top_p="0.7pt" bottom_p="0.7pt" right_s="solid" top_s="solid" bottom_s="solid" rowspan="3"/>
+					<cell field="Name" type="wraptext" bold="yes" left_p="3.6pt" right_p="3.6pt" top_p="1.45pt" bottom_p="1.45pt" left_s="solid" right_s="solid" bottom_s="solid" colspan="2" stretch="yes" charlen="20"/>
+				</row>
+				<row>
+					<cell field="Duration" format="5" left_p="3.6pt" right_p="3.6pt" top_p="0.7pt" bottom_p="0.7pt" left_s="solid" right_s="solid" top_s="solid" bottom_s="solid"/>
+					<cell field="% Complete" left_p="3.6pt" right_p="3.6pt" top_p="0.7pt" bottom_p="0.7pt" left_s="solid" top_s="solid" bottom_s="solid" stretch="yes"/>
+				</row>
+				<row>
+					<cell field="Start" format="1" left_p="3.6pt" right_p="3.6pt" top_p="0.7pt" bottom_p="0.7pt" left_s="solid" right_s="solid" top_s="solid"/>
+					<cell field="Finish" format="1" left_p="3.6pt" right_p="3.6pt" top_p="0.7pt" bottom_p="0.7pt" left_s="solid" top_s="solid"/>
+				</row>
+			</grid>
+			<grid id="task" rows="4" cols="3" top="1">
+				<row>
+					<cell field="WBS" halign="left" bold="yes" color="red" left_p="0.7pt" right_p="0.7pt" top_p="0pt" bottom_p="0pt" colspan="3"/>
+				</row>
+				<row stretch="yes">
+					<cell field="ID" bold="yes" orient="bottomtop" bkcolor="yellow" left_p="0.7pt" right_p="0.7pt" top_p="0.7pt" bottom_p="0.7pt" right_s="solid" top_s="solid" bottom_s="solid" rowspan="3"/>
+					<cell field="Name" type="wraptext" bold="yes" left_p="3.6pt" right_p="3.6pt" top_p="1.45pt" bottom_p="1.45pt" left_s="solid" right_s="solid" bottom_s="solid" colspan="2" stretch="yes" charlen="20"/>
+				</row>
+				<row>
+					<cell field="Duration" format="5" left_p="3.6pt" right_p="3.6pt" top_p="0.7pt" bottom_p="0.7pt" left_s="solid" right_s="solid" top_s="solid" bottom_s="solid"/>
+					<cell field="% Complete" left_p="3.6pt" right_p="3.6pt" top_p="0.7pt" bottom_p="0.7pt" left_s="solid" top_s="solid" bottom_s="solid" stretch="yes"/>
+				</row>
+				<row>
+					<cell field="Start" format="1" left_p="3.6pt" right_p="3.6pt" top_p="0.7pt" bottom_p="0.7pt" left_s="solid" right_s="solid" top_s="solid"/>
+					<cell field="Finish" format="1" left_p="3.6pt" right_p="3.6pt" top_p="0.7pt" bottom_p="0.7pt" left_s="solid" top_s="solid"/>
+				</row>
+			</grid>
+<wbs_diff>
+	<treediff id="2">
+		<item calign="independent" adjust="0.8pt"/>
+	</treediff>
+	<treediff id="137">
+		<item calign="branch_nearest"/>
+	</treediff>
+	<treediff id="136">
+		<item calign="branch_nearest"/>
+	</treediff>
+	<treediff id="135">
+		<item calign="branch_nearest"/>
+	</treediff>
+	<treediff id="134">
+		<item calign="branch_nearest"/>
+	</treediff>
+	<treediff id="139">
+		<item calign="independent" adjust="3pt"/>
+	</treediff>
+	<treediff id="296">
+		<item calign="branch_nearest" before="8pt"/>
+	</treediff>
+</wbs_diff>
+
+		</wbs_view>
+		<wbs_view id="Critical Path View" pagelayout="Page Layout 1" outlinesymbolpos="bottomcenter">
+			<item id="summary" before="14.4pt"/>
+			<item id="task" before="2.15pt" listmode="stemleft"/>
+			<border id="Critical Task" style="null" color="red" bkcolor="none">
+				<border_edge id="top" color="red"/>
+				<border_edge id="left" color="red"/>
+				<border_edge id="bottom" color="red"/>
+				<border_edge id="right" color="red"/>
+			</border>
+			<border id="Critical Milestone" style="null" color="red" bkcolor="none">
+				<border_edge id="top" color="red"/>
+				<border_edge id="left" color="red"/>
+				<border_edge id="bottom" color="red"/>
+				<border_edge id="right" color="red"/>
+			</border>
+			<border id="Critical Summary" shdir="bottom_right" shdepth="3pt" shcolor="red" bkcolor="lightyellow"/>
+			<border id="Noncritical Task" style="null" color="blue" bkcolor="none">
+				<border_edge id="top" color="blue"/>
+				<border_edge id="left" color="blue"/>
+				<border_edge id="bottom" color="blue"/>
+				<border_edge id="right" color="blue"/>
+			</border>
+			<border id="Noncritical Milestone" style="null" color="blue" bkcolor="none">
+				<border_edge id="top" color="blue"/>
+				<border_edge id="left" color="blue"/>
+				<border_edge id="bottom" color="blue"/>
+				<border_edge id="right" color="blue"/>
+			</border>
+			<border id="Noncritical Summary" shdir="bottom_right" shdepth="3pt" shcolor="blue" bkcolor="lightyellow"/>
+			<border id="External Task" style="null"/>
+			<grid id="summary" rows="1" cols="1">
+				<row>
+					<cell field="Name" type="wraptext" bold="yes" left_p="3.6pt" right_p="3.6pt" top_p="3.6pt" bottom_p="3.6pt" charlen="20"/>
+				</row>
+			</grid>
+			<grid id="task" rows="1" cols="1">
+				<row>
+					<cell field="Name" type="wraptext" halign="left" bold="yes" left_p="0.7pt" right_p="0pt" top_p="0pt" bottom_p="0pt" charlen="20"/>
+				</row>
+			</grid>
+<wbs_diff>
+</wbs_diff>
+
+		</wbs_view>
+		<wbs_view id="Flags View" pagelayout="Page Layout 8" borderpolicy="flags" outlinesymbolpos="bottomcenter">
+			<item id="summary" before="14.4pt"/>
+			<item id="task" before="10.8pt" listmode="stemleft"/>
+			<border id="Critical Task" shdir="bottom_right" shdepth="3pt" shcolor="red" bkcolor="lightyellow"/>
+			<border id="Critical Milestone" shdir="bottom_right" shdepth="3pt" shcolor="red" bkcolor="lightyellow"/>
+			<border id="Critical Summary" shdir="bottom_right" shdepth="3pt" shcolor="red" bkcolor="lightyellow"/>
+			<border id="Noncritical Task" shdir="bottom_right" shdepth="3pt" shcolor="blue" bkcolor="lightyellow"/>
+			<border id="Noncritical Milestone" shdir="bottom_right" shdepth="3pt" shcolor="blue" bkcolor="lightyellow"/>
+			<border id="Noncritical Summary" shdir="bottom_right" shdepth="3pt" shcolor="blue" bkcolor="lightyellow"/>
+			<border id="No Flag Task" bkcolor="none">
+				<border_edge id="top" bkcolor="black"/>
+				<border_edge id="left" shape="rect" depth="5.1pt" bkcolor="black"/>
+				<border_edge id="bottom" bkcolor="black"/>
+				<border_edge id="right" shape="rect" depth="5.1pt" bkcolor="black"/>
+			</border>
+			<border id="No Flag Summary" bkcolor="none">
+				<border_edge id="top" bkcolor="black"/>
+				<border_edge id="left" shape="rect" depth="5.1pt" bkcolor="black"/>
+				<border_edge id="bottom" bkcolor="black"/>
+				<border_edge id="right" shape="rect" depth="5.1pt" bkcolor="black"/>
+			</border>
+			<border id="Flag1" bkcolor="none">
+				<border_edge id="top" bkcolor="lime"/>
+				<border_edge id="left" shape="rect" depth="5.1pt" bkcolor="lime"/>
+				<border_edge id="bottom" bkcolor="lime"/>
+				<border_edge id="right" shape="rect" depth="5.1pt" bkcolor="lime"/>
+			</border>
+			<border id="Flag2" bkcolor="none">
+				<border_edge id="top" bkcolor="fuchsia"/>
+				<border_edge id="left" shape="rect" depth="5.1pt" bkcolor="fuchsia"/>
+				<border_edge id="bottom" bkcolor="fuchsia"/>
+				<border_edge id="right" shape="rect" depth="5.1pt" bkcolor="fuchsia"/>
+			</border>
+			<border id="Flag3" bkcolor="none">
+				<border_edge id="top" bkcolor="red"/>
+				<border_edge id="left" shape="rect" depth="5.1pt" bkcolor="red"/>
+				<border_edge id="bottom" bkcolor="red"/>
+				<border_edge id="right" shape="rect" depth="5.1pt" bkcolor="red"/>
+			</border>
+			<border id="Flag4" bkcolor="none">
+				<border_edge id="top" bkcolor="blue"/>
+				<border_edge id="left" shape="rect" depth="5.1pt" bkcolor="blue"/>
+				<border_edge id="bottom" bkcolor="blue"/>
+				<border_edge id="right" shape="rect" depth="5.1pt" bkcolor="blue"/>
+			</border>
+			<border id="Flag5" bkcolor="none">
+				<border_edge id="top" bkcolor="yellow"/>
+				<border_edge id="left" shape="rect" depth="5.1pt" bkcolor="yellow"/>
+				<border_edge id="bottom" bkcolor="yellow"/>
+				<border_edge id="right" shape="rect" depth="5.1pt" bkcolor="yellow"/>
+			</border>
+			<border id="Flag6" bkcolor="none">
+				<border_edge id="top" bkcolor="aqua"/>
+				<border_edge id="left" shape="rect" depth="5.1pt" bkcolor="aqua"/>
+				<border_edge id="bottom" bkcolor="aqua"/>
+				<border_edge id="right" shape="rect" depth="5.1pt" bkcolor="aqua"/>
+			</border>
+			<border id="Flag7" bkcolor="none"/>
+			<border id="Flag8" bkcolor="none"/>
+			<border id="Flag9" bkcolor="none"/>
+			<border id="Flag10" bkcolor="none"/>
+			<border id="Flag11" bkcolor="none"/>
+			<border id="Flag12" bkcolor="none"/>
+			<border id="Flag13" bkcolor="none"/>
+			<border id="Flag14" bkcolor="none"/>
+			<border id="Flag15" bkcolor="none"/>
+			<border id="Flag16" bkcolor="none"/>
+			<border id="Flag17" bkcolor="none"/>
+			<border id="Flag18" bkcolor="none"/>
+			<border id="Flag19" bkcolor="none"/>
+			<border id="Flag20" bkcolor="none"/>
+			<grid id="summary" rows="3" cols="2">
+				<row stretch="yes">
+					<cell field="Name" type="wraptext" bold="yes" left_p="3.6pt" right_p="3.6pt" top_p="1.45pt" bottom_p="1.45pt" left_s="solid" right_s="solid" bottom_s="solid" colspan="2" stretch="yes" charlen="20"/>
+				</row>
+				<row>
+					<cell field="ID" left_p="3.6pt" right_p="3.6pt" top_p="0.7pt" bottom_p="0.7pt" left_s="solid" right_s="solid" top_s="solid" bottom_s="solid"/>
+					<cell field="Duration" format="5" left_p="3.6pt" right_p="3.6pt" top_p="0.7pt" bottom_p="0.7pt" left_s="solid" top_s="solid" bottom_s="solid" stretch="yes"/>
+				</row>
+				<row>
+					<cell field="Start" format="1" left_p="3.6pt" right_p="3.6pt" top_p="0.7pt" bottom_p="0.7pt" left_s="solid" right_s="solid" top_s="solid"/>
+					<cell field="Finish" format="1" left_p="3.6pt" right_p="3.6pt" top_p="0.7pt" bottom_p="0.7pt" left_s="solid" top_s="solid"/>
+				</row>
+			</grid>
+			<grid id="task" rows="3" cols="2">
+				<row stretch="yes">
+					<cell field="Name" type="wraptext" bold="yes" left_p="3.6pt" right_p="3.6pt" top_p="1.45pt" bottom_p="1.45pt" left_s="solid" right_s="solid" bottom_s="solid" barcolor="red" colspan="2" stretch="yes" charlen="20"/>
+				</row>
+				<row>
+					<cell field="ID" left_p="3.6pt" right_p="3.6pt" top_p="0.7pt" bottom_p="0.7pt" left_s="solid" right_s="solid" top_s="solid" bottom_s="solid"/>
+					<cell field="Duration" format="5" left_p="3.6pt" right_p="3.6pt" top_p="0.7pt" bottom_p="0.7pt" left_s="solid" top_s="solid" bottom_s="solid" stretch="yes"/>
+				</row>
+				<row>
+					<cell field="Start" format="1" left_p="3.6pt" right_p="3.6pt" top_p="0.7pt" bottom_p="0.7pt" left_s="solid" right_s="solid" top_s="solid"/>
+					<cell field="Finish" format="1" left_p="3.6pt" right_p="3.6pt" top_p="0.7pt" bottom_p="0.7pt" left_s="solid" top_s="solid"/>
+				</row>
+			</grid>
+		</wbs_view>
+		<wbs_view id="Hours and Cost View" pagelayout="Page Layout 6" outlinesymbolpos="bottomcenter" field="Cost">
+			<item id="summary" before="18pt"/>
+			<item id="task" before="14.4pt" listmode="stemleft"/>
+			<border id="Critical Task" shdir="bottom_right" shdepth="3pt" shcolor="red" bkcolor="lightyellow"/>
+			<border id="Critical Milestone" shdir="bottom_right" shdepth="3pt" shcolor="red" bkcolor="lightyellow"/>
+			<border id="Critical Summary" shdir="bottom_right" shdepth="3pt" shcolor="red" bkcolor="lightyellow"/>
+			<border id="Noncritical Task" shdir="bottom_right" shdepth="3pt" shcolor="blue" bkcolor="lightyellow"/>
+			<border id="Noncritical Milestone" shdir="bottom_right" shdepth="3pt" shcolor="blue" bkcolor="lightyellow"/>
+			<border id="Noncritical Summary" shdir="bottom_right" shdepth="3pt" shcolor="blue" bkcolor="lightyellow"/>
+			<border id="External Task" shdir="bottom_right" shdepth="3pt" shcolor="gray" color="gray">
+				<border_edge id="top" color="gray"/>
+				<border_edge id="left" color="gray"/>
+				<border_edge id="bottom" color="gray"/>
+				<border_edge id="right" color="gray"/>
+			</border>
+			<grid id="summary" rows="2" cols="2">
+				<row stretch="yes">
+					<cell field="Name" type="wraptext" bold="yes" left_p="3.6pt" right_p="3.6pt" top_p="1.45pt" bottom_p="1.45pt" left_s="solid" right_s="solid" bottom_s="solid" colspan="2" charlen="20"/>
+				</row>
+				<row>
+					<cell field="Work" format="5" left_p="3.6pt" right_p="3.6pt" top_p="0.7pt" bottom_p="0.7pt" left_s="solid" right_s="solid" top_s="solid" bottom_s="solid"/>
+					<cell field="Cost" left_p="3.6pt" right_p="3.6pt" top_p="0.7pt" bottom_p="0.7pt" left_s="solid" top_s="solid" bottom_s="solid"/>
+				</row>
+			</grid>
+			<grid id="task" rows="2" cols="2">
+				<row stretch="yes">
+					<cell field="Name" type="wraptext" bold="yes" left_p="3.6pt" right_p="3.6pt" top_p="1.45pt" bottom_p="1.45pt" left_s="solid" right_s="solid" bottom_s="solid" colspan="2" charlen="20"/>
+				</row>
+				<row>
+					<cell field="Work" format="5" left_p="3.6pt" right_p="3.6pt" top_p="0.7pt" bottom_p="0.7pt" left_s="solid" right_s="solid" top_s="solid" bottom_s="solid"/>
+					<cell field="Cost" left_p="3.6pt" right_p="3.6pt" top_p="0.7pt" bottom_p="0.7pt" left_s="solid" top_s="solid" bottom_s="solid"/>
+				</row>
+			</grid>
+<wbs_diff>
+</wbs_diff>
+
+		</wbs_view>
+		<wbs_view id="Planning View 2" pagelayout="Page Layout 7" outlinesymbolpos="bottomcenter">
+			<item id="summary" drop="28.8pt" before="10.8pt"/>
+			<item id="task" before="10.8pt"/>
+			<border id="Critical Task" shdir="bottom_right" shdepth="3pt"/>
+			<border id="Critical Milestone" shdir="bottom_right" shdepth="3pt"/>
+			<border id="Critical Summary" shdir="bottom_right" shdepth="3pt"/>
+			<border id="Noncritical Task" shdir="bottom_right" shdepth="3pt"/>
+			<border id="Noncritical Milestone" shdir="bottom_right" shdepth="3pt"/>
+			<border id="Noncritical Summary" shdir="bottom_right" shdepth="3pt"/>
+			<border id="External Task" shdir="bottom_right" shdepth="3pt"/>
+			<grid id="summary" rows="3" cols="2">
+				<row stretch="yes">
+					<cell field="Name" type="wraptext" bold="yes" left_p="3.6pt" right_p="3.6pt" top_p="3.6pt" bottom_p="3.6pt" right_s="solid" bottom_s="solid" colspan="2" charlen="20"/>
+				</row>
+				<row>
+					<cell field="ID" left_p="3.6pt" right_p="3.6pt" top_p="0.7pt" bottom_p="0.7pt" right_s="solid" top_s="solid" bottom_s="solid"/>
+					<cell field="Duration" format="5" left_p="3.6pt" right_p="3.6pt" top_p="0.7pt" bottom_p="0.7pt" left_s="solid" top_s="solid" bottom_s="solid"/>
+				</row>
+				<row>
+					<cell field="Start" format="1" left_p="3.6pt" right_p="3.6pt" top_p="0.7pt" bottom_p="0.7pt" right_s="solid" top_s="solid"/>
+					<cell field="Finish" format="1" left_p="3.6pt" right_p="3.6pt" top_p="0.7pt" bottom_p="0.7pt" left_s="solid" top_s="solid"/>
+				</row>
+			</grid>
+			<grid id="task" rows="3" cols="2">
+				<row stretch="yes">
+					<cell field="Name" type="wraptext" bold="yes" left_p="3.6pt" right_p="3.6pt" top_p="3.6pt" bottom_p="3.6pt" right_s="solid" bottom_s="solid" colspan="2" charlen="20"/>
+				</row>
+				<row>
+					<cell field="ID" left_p="3.6pt" right_p="3.6pt" top_p="0.7pt" bottom_p="0.7pt" right_s="solid" top_s="solid" bottom_s="solid"/>
+					<cell field="Duration" format="5" left_p="3.6pt" right_p="3.6pt" top_p="0.7pt" bottom_p="0.7pt" left_s="solid" top_s="solid" bottom_s="solid"/>
+				</row>
+				<row>
+					<cell field="Start" format="1" left_p="3.6pt" right_p="3.6pt" top_p="0.7pt" bottom_p="0.7pt" right_s="solid" top_s="solid"/>
+					<cell field="Finish" format="1" left_p="3.6pt" right_p="3.6pt" top_p="0.7pt" bottom_p="0.7pt" left_s="solid" top_s="solid"/>
+				</row>
+			</grid>
+<wbs_diff>
+</wbs_diff>
+
+		</wbs_view>
+		<wbs_view id="Planning View" pagelayout="Page Layout 1" outlinesymbolpos="bottomcenter">
+			<item id="summary" drop="28.8pt" before="10.8pt"/>
+			<item id="task" before="10.8pt"/>
+			<border id="Critical Task" shdir="bottom_right" shdepth="3pt"/>
+			<border id="Critical Milestone" shdir="bottom_right" shdepth="3pt"/>
+			<border id="Critical Summary" shdir="bottom_right" shdepth="3pt"/>
+			<border id="Noncritical Task" shdir="bottom_right" shdepth="3pt"/>
+			<border id="Noncritical Milestone" shdir="bottom_right" shdepth="3pt"/>
+			<border id="Noncritical Summary" shdir="bottom_right" shdepth="3pt"/>
+			<border id="External Task" shdir="bottom_right" shdepth="3pt"/>
+			<grid id="summary" rows="1" cols="1">
+				<row>
+					<cell field="Name" type="wraptext" bold="yes" left_p="3.6pt" right_p="3.6pt" top_p="3.6pt" bottom_p="3.6pt" charlen="20"/>
+				</row>
+			</grid>
+			<grid id="task" rows="1" cols="1">
+				<row>
+					<cell field="Name" type="wraptext" bold="yes" left_p="3.6pt" right_p="3.6pt" top_p="3.6pt" bottom_p="3.6pt" barcolor="red" charlen="20"/>
+				</row>
+			</grid>
+<wbs_diff>
+	<treediff id="93">
+		<item calign="branch_nearest">
+		</item>
+	</treediff>
+	<treediff id="54">
+		<item listmode="stemleft">
+		</item>
+	</treediff>
+	<treediff id="55">
+		<item listmode="stemleft">
+		</item>
+	</treediff>
+	<treediff id="56">
+		<item listmode="stemleft">
+		</item>
+	</treediff>
+	<treediff id="57">
+		<item listmode="stemleft">
+		</item>
+	</treediff>
+	<treediff id="58">
+		<item listmode="stemleft">
+		</item>
+	</treediff>
+	<treediff id="59">
+		<item listmode="stemleft">
+		</item>
+	</treediff>
+	<treediff id="60">
+		<item listmode="stemleft">
+		</item>
+	</treediff>
+	<treediff id="61">
+		<item listmode="stemleft">
+		</item>
+	</treediff>
+	<treediff id="63">
+		<item listmode="stemleft">
+		</item>
+	</treediff>
+	<treediff id="64">
+		<item listmode="stemleft">
+		</item>
+	</treediff>
+	<treediff id="65">
+		<item listmode="stemleft">
+		</item>
+	</treediff>
+	<treediff id="66">
+		<item listmode="stemleft">
+		</item>
+	</treediff>
+	<treediff id="67">
+		<item before="9.9pt" listmode="stemleft">
+		</item>
+	</treediff>
+	<treediff id="68">
+		<item listmode="stemleft">
+		</item>
+	</treediff>
+	<treediff id="69">
+		<item listmode="stemleft">
+		</item>
+	</treediff>
+	<treediff id="70">
+		<item listmode="stemleft">
+		</item>
+	</treediff>
+	<treediff id="71">
+		<item listmode="stemleft">
+		</item>
+	</treediff>
+	<treediff id="72">
+		<item listmode="stemleft">
+		</item>
+	</treediff>
+	<treediff id="73">
+		<item listmode="stemleft">
+		</item>
+	</treediff>
+	<treediff id="74">
+		<item listmode="stemleft">
+		</item>
+	</treediff>
+	<treediff id="75">
+		<item listmode="stemleft">
+		</item>
+	</treediff>
+	<treediff id="76">
+		<item listmode="stemleft">
+		</item>
+	</treediff>
+	<treediff id="77">
+		<item listmode="stemleft">
+		</item>
+	</treediff>
+	<treediff id="78">
+		<item listmode="stemleft">
+		</item>
+	</treediff>
+	<treediff id="79">
+		<item listmode="stemleft">
+		</item>
+	</treediff>
+	<treediff id="80">
+		<item listmode="stemleft">
+		</item>
+	</treediff>
+	<treediff id="81">
+		<item listmode="stemleft">
+		</item>
+	</treediff>
+	<treediff id="82">
+		<item listmode="stemleft">
+		</item>
+	</treediff>
+	<treediff id="83">
+		<item listmode="stemleft">
+		</item>
+	</treediff>
+	<treediff id="84">
+		<item listmode="stemleft">
+		</item>
+	</treediff>
+	<treediff id="207">
+		<item calign="branch_nearest" listmode="stemleft">
+		</item>
+	</treediff>
+	<treediff id="208">
+		<item calign="branch_nearest" listmode="stemleft">
+		</item>
+	</treediff>
+	<treediff id="209">
+		<item calign="branch_nearest" listmode="stemleft">
+		</item>
+	</treediff>
+	<treediff id="210">
+		<item calign="branch_nearest" listmode="stemleft">
+		</item>
+	</treediff>
+	<treediff id="145">
+		<item calign="branch_nearest" listmode="stemleft">
+		</item>
+	</treediff>
+	<treediff id="156">
+		<item calign="branch_nearest" adjust="0.9pt" listmode="stemleft">
+		</item>
+	</treediff>
+	<treediff id="147">
+		<item calign="branch_nearest" listmode="stemleft">
+		</item>
+	</treediff>
+	<treediff id="148">
+		<item calign="branch_nearest" listmode="stemleft">
+		</item>
+	</treediff>
+	<treediff id="149">
+		<item calign="branch_nearest" listmode="stemleft">
+		</item>
+	</treediff>
+	<treediff id="150">
+		<item calign="branch_nearest" listmode="stemleft">
+		</item>
+	</treediff>
+	<treediff id="151">
+		<item calign="branch_nearest" listmode="stemleft">
+		</item>
+	</treediff>
+	<treediff id="152">
+		<item calign="branch_nearest" listmode="stemleft">
+		</item>
+	</treediff>
+	<treediff id="153">
+		<item calign="branch_nearest" listmode="stemleft">
+		</item>
+	</treediff>
+	<treediff id="154">
+		<item calign="branch_nearest" listmode="stemleft">
+		</item>
+	</treediff>
+	<treediff id="155">
+		<item calign="branch_nearest" listmode="stemleft">
+		</item>
+	</treediff>
+	<treediff id="146">
+		<item calign="branch_nearest" listmode="stemleft">
+		</item>
+	</treediff>
+	<treediff id="183">
+		<item calign="branch_nearest" listmode="stemleft">
+		</item>
+	</treediff>
+	<treediff id="184">
+		<item calign="branch_nearest" listmode="stemleft">
+		</item>
+	</treediff>
+	<treediff id="185">
+		<item calign="branch_nearest" listmode="stemleft">
+		</item>
+	</treediff>
+	<treediff id="186">
+		<item calign="branch_nearest" listmode="stemleft">
+		</item>
+	</treediff>
+	<treediff id="187">
+		<item calign="branch_nearest" listmode="stemleft">
+		</item>
+	</treediff>
+	<treediff id="188">
+		<item calign="branch_nearest" listmode="stemleft">
+		</item>
+	</treediff>
+	<treediff id="189">
+		<item calign="branch_nearest" listmode="stemleft">
+		</item>
+	</treediff>
+	<treediff id="190">
+		<item calign="branch_nearest" listmode="stemleft">
+		</item>
+	</treediff>
+	<treediff id="191">
+		<item calign="branch_nearest" listmode="stemleft">
+		</item>
+	</treediff>
+	<treediff id="192">
+		<item calign="branch_nearest" listmode="stemleft">
+		</item>
+	</treediff>
+	<treediff id="193">
+		<item calign="branch_nearest" listmode="stemleft">
+		</item>
+	</treediff>
+	<treediff id="194">
+		<item calign="branch_nearest" listmode="stemleft">
+		</item>
+	</treediff>
+	<treediff id="195">
+		<item calign="branch_nearest" listmode="stemleft">
+		</item>
+	</treediff>
+	<treediff id="196">
+		<item calign="branch_nearest" listmode="stemleft">
+		</item>
+	</treediff>
+	<treediff id="197">
+		<item calign="branch_nearest" listmode="stemleft">
+		</item>
+	</treediff>
+	<treediff id="198">
+		<item calign="branch_nearest" listmode="stemleft">
+		</item>
+	</treediff>
+	<treediff id="199">
+		<item calign="branch_nearest" listmode="stemleft">
+		</item>
+	</treediff>
+	<treediff id="200">
+		<item calign="branch_nearest" listmode="stemleft">
+		</item>
+	</treediff>
+	<treediff id="137">
+		<item calign="branch_nearest" listmode="stemleft">
+		</item>
+	</treediff>
+	<treediff id="136">
+		<item calign="branch_nearest" listmode="stemleft">
+		</item>
+	</treediff>
+	<treediff id="135">
+		<item calign="branch_nearest" listmode="stemleft">
+		</item>
+	</treediff>
+	<treediff id="134">
+		<item calign="branch_nearest" listmode="stemleft">
+		</item>
+	</treediff>
+	<treediff id="140">
+		<item calign="branch_nearest">
+		</item>
+	</treediff>
+	<treediff id="139">
+		<item listmode="stemleft">
+		</item>
+	</treediff>
+	<treediff id="138">
+		<item listmode="stemleft">
+		</item>
+	</treediff>
+	<treediff id="223">
+		<item listmode="stemleft">
+		</item>
+	</treediff>
+	<treediff id="224">
+		<item listmode="stemleft">
+		</item>
+	</treediff>
+	<treediff id="225">
+		<item listmode="stemleft">
+		</item>
+	</treediff>
+	<treediff id="226">
+		<item listmode="stemleft">
+		</item>
+	</treediff>
+	<treediff id="227">
+		<item listmode="stemleft">
+		</item>
+	</treediff>
+	<treediff id="228">
+		<item listmode="stemleft">
+		</item>
+	</treediff>
+	<treediff id="229">
+		<item listmode="stemleft">
+		</item>
+	</treediff>
+	<treediff id="230">
+		<item listmode="stemleft">
+		</item>
+	</treediff>
+	<treediff id="231">
+		<item listmode="stemleft">
+		</item>
+	</treediff>
+	<treediff id="232">
+		<item listmode="stemleft">
+		</item>
+	</treediff>
+	<treediff id="233">
+		<item listmode="stemleft">
+		</item>
+	</treediff>
+	<treediff id="234">
+		<item listmode="stemleft">
+		</item>
+	</treediff>
+	<treediff id="235">
+		<item listmode="stemleft">
+		</item>
+	</treediff>
+	<treediff id="236">
+		<item listmode="stemleft">
+		</item>
+	</treediff>
+	<treediff id="237">
+		<item listmode="stemleft">
+		</item>
+	</treediff>
+	<treediff id="238">
+		<item listmode="stemleft">
+		</item>
+	</treediff>
+	<treediff id="239">
+		<item listmode="stemleft">
+		</item>
+	</treediff>
+	<treediff id="240">
+		<item listmode="stemleft">
+		</item>
+	</treediff>
+	<treediff id="241">
+		<item listmode="stemleft">
+		</item>
+	</treediff>
+	<treediff id="242">
+		<item listmode="stemleft">
+		</item>
+	</treediff>
+	<treediff id="243">
+		<item listmode="stemleft">
+		</item>
+	</treediff>
+	<treediff id="244">
+		<item listmode="stemleft">
+		</item>
+	</treediff>
+	<treediff id="245">
+		<item listmode="stemleft">
+		</item>
+	</treediff>
+	<treediff id="246">
+		<item listmode="stemleft">
+		</item>
+	</treediff>
+	<treediff id="247">
+		<item listmode="stemleft">
+		</item>
+	</treediff>
+	<treediff id="248">
+		<item listmode="stemleft">
+		</item>
+	</treediff>
+	<treediff id="249">
+		<item listmode="stemleft">
+		</item>
+	</treediff>
+	<treediff id="250">
+		<item listmode="stemleft">
+		</item>
+	</treediff>
+	<treediff id="251">
+		<item listmode="stemleft">
+		</item>
+	</treediff>
+	<treediff id="252">
+		<item listmode="stemleft">
+		</item>
+	</treediff>
+	<treediff id="253">
+		<item listmode="stemleft">
+		</item>
+	</treediff>
+	<treediff id="254">
+		<item listmode="stemleft">
+		</item>
+	</treediff>
+	<treediff id="255">
+		<item listmode="stemleft">
+		</item>
+	</treediff>
+	<treediff id="256">
+		<item listmode="stemleft">
+		</item>
+	</treediff>
+	<treediff id="257">
+		<item listmode="stemleft">
+		</item>
+	</treediff>
+	<treediff id="258">
+		<item listmode="stemleft">
+		</item>
+	</treediff>
+	<treediff id="259">
+		<item listmode="stemleft">
+		</item>
+	</treediff>
+	<treediff id="260">
+		<item listmode="stemleft">
+		</item>
+	</treediff>
+	<treediff id="261">
+		<item listmode="stemleft">
+		</item>
+	</treediff>
+	<treediff id="262">
+		<item listmode="stemleft">
+		</item>
+	</treediff>
+	<treediff id="263">
+		<item listmode="stemleft">
+		</item>
+	</treediff>
+	<treediff id="264">
+		<item listmode="stemleft">
+		</item>
+	</treediff>
+	<treediff id="265">
+		<item listmode="stemleft">
+		</item>
+	</treediff>
+	<treediff id="266">
+		<item listmode="stemleft">
+		</item>
+	</treediff>
+	<treediff id="267">
+		<item listmode="stemleft">
+		</item>
+	</treediff>
+	<treediff id="268">
+		<item listmode="stemleft">
+		</item>
+	</treediff>
+	<treediff id="269">
+		<item listmode="stemleft">
+		</item>
+	</treediff>
+	<treediff id="270">
+		<item listmode="stemleft">
+		</item>
+	</treediff>
+</wbs_diff>
+
+		</wbs_view>
+		<wbs_view id="Progress View" pagelayout="Page Layout 8" borderpolicy="progress" outlinesymbolpos="bottomcenter">
+			<item id="summary" before="14.4pt"/>
+			<item id="task" before="7.2pt" listmode="stemleft"/>
+			<border id="Critical Task" shdir="bottom_right" shdepth="3pt" shcolor="red" bkcolor="lightyellow"/>
+			<border id="Critical Milestone" shdir="bottom_right" shdepth="3pt" shcolor="red" bkcolor="lightyellow"/>
+			<border id="Critical Summary" shdir="bottom_right" shdepth="3pt" shcolor="red" bkcolor="lightyellow"/>
+			<border id="Noncritical Task" shdir="bottom_right" shdepth="3pt" shcolor="blue" bkcolor="lightyellow"/>
+			<border id="Noncritical Milestone" shdir="bottom_right" shdepth="3pt" shcolor="blue" bkcolor="lightyellow"/>
+			<border id="Noncritical Summary" shdir="bottom_right" shdepth="3pt" shcolor="blue" bkcolor="lightyellow"/>
+			<border id="Not Started Task">
+				<border_edge id="top" shape="rect" depth="5.1pt" bkcolor="green"/>
+				<border_edge id="left" bkcolor="green"/>
+				<border_edge id="bottom" shape="rect" depth="5.1pt" bkcolor="green"/>
+				<border_edge id="right" bkcolor="green"/>
+			</border>
+			<border id="Not Started Milestone">
+				<border_edge id="top" shape="triangle" depth="5.1pt" bkcolor="green"/>
+				<border_edge id="left" bkcolor="green"/>
+				<border_edge id="bottom" shape="triangle" depth="5.1pt" bkcolor="green"/>
+				<border_edge id="right" bkcolor="green"/>
+			</border>
+			<border id="Not Started Summary">
+				<border_edge id="top" shape="rect" depth="5.1pt" bkcolor="green"/>
+				<border_edge id="left" bkcolor="green"/>
+				<border_edge id="bottom" shape="rect" depth="5.1pt" bkcolor="green"/>
+				<border_edge id="right" bkcolor="green"/>
+			</border>
+			<border id="In Progress Task">
+				<border_edge id="top" shape="rect" depth="5.1pt" bkcolor="yellow"/>
+				<border_edge id="left" bkcolor="yellow"/>
+				<border_edge id="bottom" shape="rect" depth="5.1pt" bkcolor="yellow"/>
+				<border_edge id="right" bkcolor="yellow"/>
+			</border>
+			<border id="In Progress Summary">
+				<border_edge id="top" shape="rect" depth="5.1pt" bkcolor="yellow"/>
+				<border_edge id="left" bkcolor="yellow"/>
+				<border_edge id="bottom" shape="rect" depth="5.1pt" bkcolor="yellow"/>
+				<border_edge id="right" bkcolor="yellow"/>
+			</border>
+			<border id="Completed Task">
+				<border_edge id="top" shape="rect" depth="5.1pt" bkcolor="blue"/>
+				<border_edge id="left" bkcolor="blue"/>
+				<border_edge id="bottom" shape="rect" depth="5.1pt" bkcolor="blue"/>
+				<border_edge id="right" bkcolor="blue"/>
+			</border>
+			<border id="Completed Milestone">
+				<border_edge id="top" shape="triangle" depth="5.1pt" bkcolor="blue"/>
+				<border_edge id="left" bkcolor="blue"/>
+				<border_edge id="bottom" shape="triangle" depth="5.1pt" bkcolor="blue"/>
+				<border_edge id="right" bkcolor="blue"/>
+			</border>
+			<border id="Completed Summary">
+				<border_edge id="top" shape="rect" depth="5.1pt" bkcolor="blue"/>
+				<border_edge id="left" bkcolor="blue"/>
+				<border_edge id="bottom" shape="rect" depth="5.1pt" bkcolor="blue"/>
+				<border_edge id="right" bkcolor="blue"/>
+			</border>
+			<grid id="summary" rows="2" cols="2">
+				<row stretch="yes">
+					<cell field="Name" type="wraptext" bold="yes" left_p="3.6pt" right_p="3.6pt" top_p="1.45pt" bottom_p="1.45pt" left_s="solid" right_s="solid" bottom_s="solid" colspan="2" charlen="20"/>
+				</row>
+				<row>
+					<cell field="ID" label="Id: " left_p="3.6pt" right_p="3.6pt" top_p="0.7pt" bottom_p="0.7pt" left_s="solid" right_s="solid" top_s="solid" bottom_s="solid"/>
+					<cell field="% Complete" left_p="3.6pt" right_p="3.6pt" top_p="0.7pt" bottom_p="0.7pt" left_s="solid" top_s="solid" bottom_s="solid" stretch="yes"/>
+				</row>
+			</grid>
+			<grid id="task" rows="2" cols="2">
+				<row stretch="yes">
+					<cell field="Name" type="wraptext" bold="yes" left_p="3.6pt" right_p="3.6pt" top_p="1.45pt" bottom_p="1.45pt" left_s="solid" right_s="solid" bottom_s="solid" colspan="2" charlen="20"/>
+				</row>
+				<row>
+					<cell field="ID" label="Id: " left_p="3.6pt" right_p="3.6pt" top_p="0.7pt" bottom_p="0.7pt" left_s="solid" right_s="solid" top_s="solid" bottom_s="solid"/>
+					<cell field="% Complete" left_p="3.6pt" right_p="3.6pt" top_p="0.7pt" bottom_p="0.7pt" left_s="solid" top_s="solid" bottom_s="solid" stretch="yes"/>
+				</row>
+			</grid>
+<wbs_diff>
+</wbs_diff>
+
+		</wbs_view>
+	</views>
+</project>
